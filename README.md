@@ -1,10 +1,10 @@
 # RL Papers Lists
 
-## Lists of RL Papers to Review
+## Lists of RL Papers
 
 [Key Papers in DRL](https://spinningup.openai.com/en/latest/spinningup/keypapers.html#id106)
 
-## Kinds of RL Algorithms
+## RL Algorithms
 [Algorithms](https://spinningup.openai.com/en/latest/user/algorithms.html)
 
 [Kinds of RL Algoritms](https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html)
@@ -17,6 +17,7 @@
 
 ![RL_Roadmap](https://user-images.githubusercontent.com/83327791/209818467-31ee6eab-49b0-40d8-b9e4-8c00af315a2a.png)
 
+---
 # ICRA & IROS Papers (SLAM, Robotics, CV, Deep Learning) Lists
 [Github](https://github.com/PaoPaoRobot)
 
