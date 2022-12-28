@@ -5,7 +5,11 @@
 [Key Papers in DRL](https://spinningup.openai.com/en/latest/spinningup/keypapers.html#id106)
 
 ## Kinds of RL Algorithms
+[Algorithms](https://spinningup.openai.com/en/latest/user/algorithms.html)
+
 [Kinds of RL Algoritms](https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html)
+
+![RL_Algorithms](https://user-images.githubusercontent.com/83327791/209822670-b36975d3-0fd5-4dcd-b7b5-33ca0afed5c9.png)
 
 ## RL Roadmap
 
