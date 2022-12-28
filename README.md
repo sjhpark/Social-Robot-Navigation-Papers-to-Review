@@ -4,6 +4,9 @@
 
 [Key Papers in DRL](https://spinningup.openai.com/en/latest/spinningup/keypapers.html#id106)
 
+## Key Concepts & Terminology of RL
+[Concepts & Terminology of RL](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html#key-concepts-and-terminology)
+
 ## RL Algorithms
 [Algorithms](https://spinningup.openai.com/en/latest/user/algorithms.html)
 
