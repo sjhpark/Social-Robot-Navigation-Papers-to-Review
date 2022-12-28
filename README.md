@@ -14,7 +14,7 @@
 
 ![RL_Algorithms](https://user-images.githubusercontent.com/83327791/209822670-b36975d3-0fd5-4dcd-b7b5-33ca0afed5c9.png)
 
-## RL Roadmap
+## RL Paper Roadmap
 
 [RL Roadmap](https://gitmind.com/app/docs/mahfscai)
 
