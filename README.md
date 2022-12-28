@@ -13,8 +13,8 @@
 
 ![RL_Roadmap](https://user-images.githubusercontent.com/83327791/209818467-31ee6eab-49b0-40d8-b9e4-8c00af315a2a.png)
 
-# ICRA & IROS Papers Lists
-[Github - SLAM, Robotics, CV, Deep Learning Paper Lists](https://github.com/PaoPaoRobot)
+# ICRA & IROS Papers (SLAM, Robotics, CV, Deep Learning) Lists
+[Github](https://github.com/PaoPaoRobot)
 
 [ICRA2021](https://github.com/PaoPaoRobot/ICRA2021-paper-list)
 
