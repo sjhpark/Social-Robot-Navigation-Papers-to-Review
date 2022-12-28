@@ -1,7 +1,11 @@
 # RL_Papers_Lists
+
 ## Lists of RL Papers to Review
 
 [Key Papers in DRL](https://spinningup.openai.com/en/latest/spinningup/keypapers.html#id106)
+
+## Kinds of RL Algorithms
+[Kinds of RL Algoritms](https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html)
 
 ## RL Roadmap
 
