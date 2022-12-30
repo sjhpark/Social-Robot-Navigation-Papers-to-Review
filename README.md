@@ -42,6 +42,10 @@
 
 [CADRL GA3C](https://arxiv.org/pdf/1805.01956.pdf)
 
+[A Collision Avoidance Method Based on Deep Reinforcement Learning](https://www.mdpi.com/2218-6581/10/2/73)
+
+[A Deep Learning Approach To Multi-Context Socially-Aware Navigation](https://arxiv.org/pdf/2104.10197.pdf)
+
 [Social GAN](https://arxiv.org/abs/1803.10892)
 
 [Following Social Groups: Socially Compliant Autonomous Navigation in Dense Crowds](https://arxiv.org/abs/1911.12063)
@@ -52,7 +56,7 @@
 
 [[SOADRL] Robot Navigation in Crowded Environments Using Deep Reinforcement Learning(IROS2020)](https://ras.papercept.net/images/temp/IROS/files/0386.pdf)
 
-[IAN: Multi-Behavior Navigation Planning for Robots in Real, Crowded Environments(IROS2020)](https://ras.papercept.net/images/temp/IROS/files/1703.pdf)
+[IAN:-Behavior Navigation Planning for Robots in Real, Crowded Environments(IROS2020)](https://ras.papercept.net/images/temp/IROS/files/1703.pdf)
 
 [NavRep,Unsupervised Representations for Reinforcement Learning of Robot Navigation in Dynamic Human Environments](https://arxiv.org/pdf/2012.04406.pdf)
 
