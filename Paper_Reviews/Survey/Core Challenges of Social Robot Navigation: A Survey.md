@@ -15,7 +15,7 @@ While early efforts were driven by engineering principles, it quickly became evi
 This understanding resulted in the emergence of a dedicated field of research, which is commonly referred to as social robot navigation, broadly addressing all algorithmic, behavioral, evaluation, and design aspects of the problem.
 
 ## Decoupled Prediction and Planning:
-Decoupled approaches can be further classified into a set of dominant trends: 
+- Decoupled approaches can be further classified into a set of dominant trends: 
 a) planning while treating humans as dynamic, but non-responsive obstacles
 While these works achieved important milestones in terms of autonomous navigation capabilities and serving guidance requests, they totally ignored the human component.
 Early works’ underlying navigation frameworks treated humans as non-reactive obstacles without explicitly modeling human navigation, social engagement or interaction with and between humans.
@@ -83,7 +83,7 @@ It is generally subjective to rank alternatives according to multiple preference
 Social compliance, for example, is a soft constraint that is comprised of many aspects including safety, comfort, naturalness, and other societal preference
 
 ## Metrics
-Navigation success rate: 
+- Navigation success rate: 
 The arrival rate measures how often an agent reaches its goal.
 ex) A time constraint can be added to enforce an agent to reach its destination within a certain deadline.
 The arrival rate depends not only on an agent’s navigation algorithm but also on its environmental context such as the crowd density. 
