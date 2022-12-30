@@ -88,8 +88,6 @@
 ---
 # References
 ## ICRA & IROS Papers (SLAM, Robotics, CV, Deep Learning) Lists
-[Github](https://github.com/PaoPaoRobot)
-
 [ICRA2021](https://github.com/PaoPaoRobot/ICRA2021-paper-list)
 
 [ICRA2020](https://github.com/PaoPaoRobot/ICRA2020-paper-list)
@@ -101,4 +99,6 @@
 [IROS2019](https://github.com/PaoPaoRobot/IROS2019-paper-list)
 
 ## Github
+[Github](https://github.com/PaoPaoRobot)
+
 [Github](https://github.com/CUN-bjy/learning-based-navigation-papers)
