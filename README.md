@@ -1,4 +1,4 @@
-# RL Papers Lists
+# Reinforcement Learning
 
 ## Lists of RL Papers
 
