@@ -21,20 +21,6 @@
 ![RL_Roadmap](https://user-images.githubusercontent.com/83327791/209818467-31ee6eab-49b0-40d8-b9e4-8c00af315a2a.png)
 
 ---
-# ICRA & IROS Papers (SLAM, Robotics, CV, Deep Learning) Lists
-[Github](https://github.com/PaoPaoRobot)
-
-[ICRA2021](https://github.com/PaoPaoRobot/ICRA2021-paper-list)
-
-[ICRA2020](https://github.com/PaoPaoRobot/ICRA2020-paper-list)
-
-[IROS2020](https://github.com/PaoPaoRobot/IROS2020-paper-list)
-
-[ICRA2019](https://github.com/PaoPaoRobot/ICRA2019-paper-list)
-
-[IROS2019](https://github.com/PaoPaoRobot/IROS2019-paper-list)
-
----
 # Learning Based Navigation Paper Lists
 ## Survey
 [Core Challenges of Social Robot Navigation: A Survey](https://arxiv.org/abs/2103.05668)
@@ -98,3 +84,20 @@
 
 [Socially Compliant Navigation through Raw Depth Inputs with Generative Adversarial Imitation Learning(ICRA2018)](https://arxiv.org/pdf/1710.02543.pdf)
 
+
+---
+# References
+## ICRA & IROS Papers (SLAM, Robotics, CV, Deep Learning) Lists
+[Github](https://github.com/PaoPaoRobot)
+
+[ICRA2021](https://github.com/PaoPaoRobot/ICRA2021-paper-list)
+
+[ICRA2020](https://github.com/PaoPaoRobot/ICRA2020-paper-list)
+
+[IROS2020](https://github.com/PaoPaoRobot/IROS2020-paper-list)
+
+[ICRA2019](https://github.com/PaoPaoRobot/ICRA2019-paper-list)
+
+## Github
+[Github](https://github.com/CUN-bjy/learning-based-navigation-papers)
+[IROS2019](https://github.com/PaoPaoRobot/IROS2019-paper-list)
