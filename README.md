@@ -99,6 +99,9 @@
 [IROS2019](https://github.com/PaoPaoRobot/IROS2019-paper-list)
 
 ## Github
-[Github](https://github.com/PaoPaoRobot)
+[Github1](https://github.com/PaoPaoRobot)
 
-[Github](https://github.com/CUN-bjy/learning-based-navigation-papers)
+[Github2](https://github.com/CUN-bjy/learning-based-navigation-papers)
+
+## OpenAI
+[OpenAI Spinning Up](https://spinningup.openai.com/en/latest/)
