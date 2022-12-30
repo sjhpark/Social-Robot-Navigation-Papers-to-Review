@@ -32,13 +32,13 @@ Research on human-aware robot navigation follows different goals:
 * Robots behaving more natural
 * Robots behaving according to cultural norms
 
-Comfort
+**Comfort**
 * Comfort is the absence of annoyance and stress for humans in interaction with robots.
 
-Naturalness
+**Naturalness**
 * Naturalness is the similarity between robots and humans in low-level behavior patterns.
 
-Sociability
+**Sociability**
 * Sociability is the adherence to explicit high-level cultural conventions.
 * e.g. moving on the right in the corridor
 
@@ -50,7 +50,7 @@ Sociability
   * Proxemics is a virtual space around a person that humans mutuall respect.
   * Different social distances depend on the relationship and intention. ![image](https://user-images.githubusercontent.com/83327791/210077078-10a0b750-ebe7-4546-81e4-6a67843247eb.png)
 
-#### 2.1.2 Techniques to Improve Comfort
+### 2.1.2 Techniques to Improve Comfort
 The most common approach to avoid discomfort due to small distance is to define areas around humans as cost functions or potential fields [34, 44, 83, 89, 91].
 
 The comfort aspect of navigation deals with eliminating obvious causes of discomfort. Beyond that, the interaction between robots and humans can still be improved.
