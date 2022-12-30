@@ -35,4 +35,15 @@
 [IROS2019](https://github.com/PaoPaoRobot/IROS2019-paper-list)
 
 ---
----
+# Learning Based Navigation Paper Lists
+## Survey
+[Core Challenges of Social Robot Navigation: A Survey](https://arxiv.org/abs/2103.05668)
+[Evaluation of Socially-Aware Robot Navigation](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full)
+[Human-Aware Robot Navigation: A Survey](https://hal.archives-ouvertes.fr/hal-01684295/document)
+[Human Motion Trajectory Prediction: A Survey](https://arxiv.org/abs/1905.06113)
+## Papers
+[]()
+[]()
+[]()
+[]()
+
