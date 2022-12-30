@@ -48,7 +48,7 @@
 ## Papers
 [Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning (2020)](https://arxiv.org/abs/2010.08600v1)
 
-[SARL | CrowdNav](https://arxiv.org/abs/1809.08835)
+[[SARL] CrowdNav](https://arxiv.org/abs/1809.08835)
 
 [CADRL](https://arxiv.org/abs/1609.07845)
 
@@ -58,8 +58,7 @@
 
 [Social GAN](https://arxiv.org/abs/1803.10892)
 
-[Following Social Groups: Socially Compliant Autonomous
-Navigation in Dense Crowds](https://arxiv.org/abs/1911.12063)
+[Following Social Groups: Socially Compliant Autonomous Navigation in Dense Crowds](https://arxiv.org/abs/1911.12063)
 
 [Pedestrian Dominance Modeling for Socially-Aware Robot Navigation(ICRA2019)](https://arxiv.org/abs/1810.06613)
 
@@ -67,9 +66,35 @@ Navigation in Dense Crowds](https://arxiv.org/abs/1911.12063)
 
 [[SOADRL] Robot Navigation in Crowded Environments Using Deep Reinforcement Learning(IROS2020)](https://ras.papercept.net/images/temp/IROS/files/0386.pdf)
 
+[IAN: Multi-Behavior Navigation Planning for Robots in Real, Crowded Environments(IROS2020)](https://ras.papercept.net/images/temp/IROS/files/1703.pdf)
 
+[NavRep,Unsupervised Representations for Reinforcement Learning of Robot Navigation in Dynamic Human Environments](https://arxiv.org/pdf/2012.04406.pdf)
 
+[[NeuralRMP] Neural Autonomous Navigation with Riemannian Motion Policy(ICRA2019)](https://arxiv.org/abs/1904.01762)
 
+[Reinforced Imitation: Sample Efficient Deep Reinforcement Learning for Map-less Navigation by Leveraging Prior Demonstrations](https://arxiv.org/abs/1805.07095)
 
+[DenseCAvoid: Real-time Navigation in Dense Crowds using Anticipatory Behaviors](https://arxiv.org/pdf/2002.03038.pdf)
 
+[Learning Local Planners for Human-aware Navigation in Indoor Environments(IROS2020 from MiR)](https://ras.papercept.net/images/temp/IROS/files/0122.pdf)
+
+[DeepMNavigate: Deep Reinforced Multi-Robot Navigation Unifying Local & Global Collision Avoidance(IROS2020)](https://arxiv.org/pdf/1910.09441.pdf)
+
+[[ADWA] Adaptive Dynamic Window Approach for Local Navigation(IROS2020)](https://ras.papercept.net/images/temp/IROS/files/2250.pdf)
+
+[Deep Local Trajectory Replanning and Control for Robot Navigation(ICRA2019)](https://arxiv.org/pdf/1905.05279.pdf)
+
+[[RGL] Relational Graph Learning for Crowd Navigation(IROS2020)](https://arxiv.org/pdf/1909.13165.pdf)
+
+[[NaviGAN] A Generative Approach for Socially Compliant Navigation(ICRA2020)](https://arxiv.org/pdf/2007.05616.pdf)
+
+[[PoliNet] Deep Visual MPC-Policy Learning for Navigation(IROS2019](https://arxiv.org/pdf/1903.02749.pdf)
+
+[DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames(ICLR2020)](https://arxiv.org/pdf/1911.00357.pdf)
+
+[[NAMO] Modeling a Social Placement Cost to Extend Navigation among Movable Obstacles (NAMO) Algorithms(IROS2020)](https://hal.archives-ouvertes.fr/hal-02912925/document)
+
+[Interactive Gibson Benchmark: A Benchmark for Interactive Navigation in Cluttered Environments(RA-L, ICRA2020)](https://arxiv.org/pdf/1910.14442.pdf)
+
+[Socially Compliant Navigation through Raw Depth Inputs with Generative Adversarial Imitation Learning(ICRA2018)](https://arxiv.org/pdf/1710.02543.pdf)
 
