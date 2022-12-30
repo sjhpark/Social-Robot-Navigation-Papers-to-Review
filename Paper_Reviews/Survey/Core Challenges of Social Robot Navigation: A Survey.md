@@ -9,13 +9,12 @@ PETE TRAUTMAN, Honda Research Institute, USA
 AARON STEINFELD, Robotics Institute, Carnegie Mellon University, USA
 JEAN OH, Robotics Institute, Carnegie Mellon University, USA
 
-Summary:
-Introduction
+## Introduction
 The vision of mobile robots navigating seamlessly through public spaces has inspired a significant amount of research over the past three decades. 
 While early efforts were driven by engineering principles, it quickly became evident that the problem is inherently interdisciplinary, requiring insights from fields such as human-robot interaction, psychology, design research, and sociology. 
 This understanding resulted in the emergence of a dedicated field of research, which is commonly referred to as social robot navigation, broadly addressing all algorithmic, behavioral, evaluation, and design aspects of the problem.
 
-Decoupled Prediction and Planning:
+## Decoupled Prediction and Planning:
 Decoupled approaches can be further classified into a set of dominant trends: 
 a) planning while treating humans as dynamic, but non-responsive obstacles
 While these works achieved important milestones in terms of autonomous navigation capabilities and serving guidance requests, they totally ignored the human component.
@@ -24,7 +23,7 @@ The lack of models for human behavior tends to result in subtle robot behaviors 
 b) planning using interaction-agnostic models of uncertainty
 c) planning by following hand-designed social objectives.
 
-Coupled Prediction and Planning:
+## Coupled Prediction and Planning:
 Decoupled approaches tend to follow the conventional paradigm of decoupling motion prediction from motion planning, often resulting in undesired phenomena such as the freezing robot problem or the reciprocal dance problem.
 These observations motivated a new research trend focusing on modeling multi-agent interaction in crowd domains as cooperative collision avoidance (CCA).
 The authors observe two main trends depending on the type of cooperation models they employ: 
@@ -48,10 +47,10 @@ The majority of prediction and planning approaches do not explicitly model the c
 However, we are aware of the importance that the shape of a space (e.g., open space or narrow hallway), the timing (e.g., rush hour in a metro station or a museum) or the semantic map (e.g., at airports there are often queues next to the gates) plays on the type of crowd interactions.
 Contexts have not been fully explored in the social robot navigation research.
 
-Proxemics
+## Proxemics
 Proxemics describes a space around a pedestrian that, if intruded, might cause the pedestrian to feel discomfort.
 
-Intentions
+## Intentions
 Intentions often represent rich signals that offer hints to the future behavior of an agent.
 Literature from psychology and cognitive science has shown that humans tend to interpret observed actions as goal-directed. Therefore, by designing robot motion that is indicative of the robot’s goal could enable an observer to infer the robot’s future behavior.
 Legible robot motion may yield higher comfort for the co-navigating human.
@@ -59,7 +58,7 @@ Modalities such as body posture, eye gaze, arm/hand gestures and facial expressi
 Lichtenthäler et al. showed that legible motions increase the perceived safety by pedestrians.
 C. Lichtenthäler, T. Lorenzy, and A. Kirsch. 2012. Influence of legibility on perceived safety in a virtual human-robot path crossing task. In Proceedings of the IEEE International Symposium on Robot and Human Interactive Communication (RO-MAN). 676–681.
 
-Formations and Social Spaces
+## Formations and Social Spaces
 Spatial behavior of the pedestrians and their encompassed social spaces contain rich social signals. These signals guide a robot by informing the robot which social areas are inappropriate to trespass and by offering the robot additional insights to help with pedestrian motion tracking and predictions.
 Most popular research on pedestrian spatial behavior is on grouping. 
 Grouping is thought by some as a synchronization process where a few individuals attune their behavior to that of the people around them. 
@@ -71,19 +70,19 @@ Although sometimes not explicitly related to navigation, these static groups sho
 Dynamic groups:
 Dynamic groups are groups implicitly formed by moving pedestrians. Similar to static groups, social spaces are present within dynamic groups and are best not to be interrupted.
 
-Open Problems and Directions for Future Work
+## Open Problems and Directions for Future Work
 Despite the large body of work on pedestrian behavior, the biggest behavioral challenge of social navigation is still on understanding pedestrian behavior.
 At the current stage, research in pedestrian behavior understanding takes a trial-and-error based approach, where researchers design a model for a specific aspect of pedestrian behavior and often show in a small-scale lab study that the model shows promise. 
 While the lab studies and validation methods used to establish scientific significance of these models are sufficient, lab studies are often heavily controlled and lack authenticity when compared to real world scenarios.
 Pedestrian behavior analysis is a conglomeration of the various behavioral aspects that potentially benefit social navigation. Researchers often focus on one of these aspects to explore. 
 However, it is often unclear how much the inclusion of such particular behavioral aspects benefit social navigation.
 
-Core Evaluation Challenges of Social Navigation
+## Core Evaluation Challenges of Social Navigation
 An agent’s navigation performance can be evaluated based on how successful in arriving at a destination.
 It is generally subjective to rank alternatives according to multiple preferences or soft constraints. 
 Social compliance, for example, is a soft constraint that is comprised of many aspects including safety, comfort, naturalness, and other societal preference
 
-Metrics
+## Metrics
 Navigation success rate: 
 The arrival rate measures how often an agent reaches its goal.
 ex) A time constraint can be added to enforce an agent to reach its destination within a certain deadline.
@@ -100,7 +99,7 @@ Two distance metrics that are prominent in existing works are the average displa
 ADE is the average of Euclidean differences between temporally aligned points in the two paths given by a navigation algorithm and the ground truth path from the dataset, respectively.
 FDE is the displacement error only at the final time step.
 
-Evaluation Methodologies
+## Evaluation Methodologies
 Datasets
 Using pedestrian datasets for evaluation is favored due to two reasons: 
 First, although the recorded behaviors are not fully representative of human pedestrians, the datasets still contain the trajectories of humans navigating in a real environment. 
@@ -110,15 +109,15 @@ Real-life experiments are usually expensive in both time and resources. Crowd si
 Simulator software:
 PedSim, OpenSteer, Menge, Continuum, both written in C++, are the most common tools used to simulate crowd scenarios.
 
-Open Problems and Directions for Future Work
-Limitations of Existing Simulation Practices
+## Open Problems and Directions for Future Work
+- Limitations of Existing Simulation Practices
 it is crucial to carefully construct an experimental setup that can provide meaningful insights. 
 This requires determining the models governing the behavior of simulated humans, the specific scenarios in which we evaluate an algorithm, the metrics with respect to which we evaluate them, and more.
 Behavioral Model Assumptions
 Current crowd models fail to describe the relationships between human behaviors systematically and to enable heterogeneity.
 One way to improve existing simulator suites would be to consider combining different modeling approaches that increase the crowd heterogeneity while modeling and representing complex individual behavior in different scenarios.
 
-Conclusion
+## Conclusion
 The authors shared thoughts on fundamental challenges underlying the problem of planning robot motion in crowded human environments. Specifically, planning in such spaces is NP-hard, and the non-convexity of balancing standard efficiency/safety tradeoffs prohibit guaranteeing practical performance in real-world applications.
 Additional complications arise from the difficulty of modeling human agents, and from the sensitivity to different types of contexts.
 
