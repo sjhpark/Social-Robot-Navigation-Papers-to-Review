@@ -23,11 +23,13 @@
 ---
 # Learning Based Navigation Paper Lists
 ## Survey
-[Core Challenges of Social Robot Navigation: A Survey](https://arxiv.org/abs/2103.05668)
+[Evaluation of Socially-Aware Robot Navigation (2022)](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full)
 
-[Evaluation of Socially-Aware Robot Navigation](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full)
+[Core Challenges of Social Robot Navigation: A Survey (2021)](https://arxiv.org/abs/2103.05668)
 
-[Human-Aware Robot Navigation: A Survey](https://hal.archives-ouvertes.fr/hal-01684295/document)
+[A Survey on Human-aware Robot Navigation (2021)](https://arxiv.org/pdf/2106.11650.pdf)
+
+[Human-Aware Robot Navigation: A Survey (2013)](https://hal.archives-ouvertes.fr/hal-01684295/document)
 
 [Human Motion Trajectory Prediction: A Survey](https://arxiv.org/abs/1905.06113)
 
