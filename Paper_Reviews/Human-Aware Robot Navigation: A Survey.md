@@ -194,3 +194,35 @@ Examples of cost functions used in publications:
 * Fig. 9.h. Costs in Front of Moving Humans - No costs should be applied in path planning while humans are moving in the same direction as the robot. Instead, the robot may benefit from planning a path that follows a person if the robot wants to move in the same direction, in particular for moving in crowds.
   * This relates most closely to natural motion rather than comfort or safety.
 
+### 3.6. Local Planning
+Local Planning (Reactive Planning; Collision Avoidance) - The task of finidng commands for the robot actuators for the immediate future
+
+A publication by Fraichard [24] defines criteria for safe robot motion in the sense of collision avoidance as:
+ * A navigation needs to reason about
+   * Its own dynamics
+   * The future dynamics of moving obstacles
+   * Infinite time horizon
+     * However, for the real world, the time horizon does not need to be infinite since the future quickly deteriorates due to uncertainty and sensor limitations.
+     * Appropriate minimum time horizon depends on the field-of-view of the robot and the maxiimally expected dynamics of all objects in the environmnt.
+ * Following these constraints alone guarantee safety only, not social acceptability nor efficiency (not adequate for humans).
+
+Usually there is nothing human-aware about local planning.
+ * However, some authors use the knowledge about the nature of obstacles, and derive special behaviors when an obstacle is known to be human - This allows human-aware aspects in local planning
+
+Fraichard [24] summarized several kinds of local planners.
+The most used local planners are:
+ * Sampling Algorithms
+   * In sampling algorithms, the local planner calculates (simulates) the future positions of the robot under different velocity commands (sample velocities), prunes those that are in collision (sort out invalid simulated positions/trajectories), and selects the one of the remaining trajectories that best fits a goal function.
+   * Sampling algorithms are easy to extend with social cost functions and additional sensor inputs, but representation of dynamic obstacles is often not part of the solution (e.g. DWA considers all obstacles to be static)
+     * It seems to me that the DWA (Dynamic Window Approach) local planner in ROS uses this sampling algorithm where multiple trajectories are simulated based off sample velocity commands along with cost calculated per simulated trajectory. Then, it prunes to sort out invalid trajectories (in collision; negative cost) and pick the best trajectory (minimum positive cost) out of valid trajectories.
+ * Velocity Obstacle (VO)
+   * VO assumes perfect knowledge about the shape of obstacles and other agents' future motions. Then, finds an analytic solution that prevents collisions.
+   * VO works for multi-robot navigation (as shown for examples in [11, 25])
+   * However, it is more difficult to implement analytical solutions with nonlinear trajectories, noisy obstacle data, uncertainty, and cost functions.
+
+## 4. Evaluation Methods for Human-aware Navigation
+There are two main evaluation strategies:
+ * Simulation based evaluation
+   * Uses a simulation based on a model of what causes human-discomfort.
+ * User Study based evaluation
+   * Presents participants with a robot and ask them to rate robot qualities via a questionnaire.
