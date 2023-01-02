@@ -177,11 +177,20 @@ Metrics related to naturalness focus on low-level behavioral patterns, i.e., how
       * An algorithm commonly used for matching spoken-word sequences at varying speeds—to transform one trajectory into another via time re-scaling.
       * A dynamic time warping distance can then be calculated to compare trajectories produced by agents moving at different velocities.
   * Smoothness
+    * Non-smooth paths (irregular paths or jittery movements) are not only inefficient but also causing discomfort to nearby pedestrians. 
     * Path Irregularity ![image](https://user-images.githubusercontent.com/83327791/210172088-07fec0b0-3dcd-4bae-ab4e-c18bf2bdb107.png)
     * Topological Complexity 
+      * Greater path entanglement means that the agents are more likely to encounter each other during navigation.
 
 ### 4.3. Human Discomfort
 ![image](https://user-images.githubusercontent.com/83327791/210172174-c0f3c8c1-cffd-4bab-b533-0ab9cef4b0e8.png)
+
+Discomfort (either physical or psychological) is typically quantified by Spatial Models and Subjective Ratings
+
+### 4.3.1. Spatial Models
+The impact of a mobile robot's navigational behavior on human comfort is difficult to quantify.
+ * Research suggests that the psychological comfort of humans is affected by interpersonal distance (Aiello, 1977; Baldassare, 1978; Greenberg et al., 1980).
+ * Proxemic theory by Hall, 1966, suggests that an individual's perceived personal space consists of several layers of concentric circles structured by their social functions. 
 
 
 
