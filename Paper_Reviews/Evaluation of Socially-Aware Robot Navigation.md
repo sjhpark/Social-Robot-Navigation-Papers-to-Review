@@ -51,20 +51,20 @@ Simulation experiments have been regularly utilized in recent years due to advan
     * First evaluated their method for crowd navigation in a simulated circle crossing scenario with five agents, after which they provided a demonstration of their method using a Pioneer robot interacting with human subjects.
 
 Simulation platforms have been developed for robot navigation due to the popularity of simulation-based evaluation:
-  * Okal and Linder, 2013 - PedsimROS
+  * PedsimROS (Okal and Linder, 2013)
     * 2D simulator based on Social Force Model (SFM) (Helbing and Molnár, 1995).
     * Integrated with the ROS navigation stack and enables easy simulation of large crowds in real time.
-  * Gerkey et al., 2013 - Simplistic 2D simulation
-  * Aroor et al., 2017 - MengeROS
+  * Simplistic 2D simulation (Gerkey et al., 2013)
+  * MengeROS (Aroor et al., 2017)
     * 2D simulator for realistic crowd and robot simulation. 
     * It employs several backend algorithms for crowd simulation, such as: 
       * Optimal Reciprocal Collision Avoidance (ORCA) (Van Den Berg et al., 2011)
       * Social Force Model (SFM) (Helbing and Molnár, 1995)
       * PedVO (Curtis and Manocha, 2014)
-  * Change t al., 2017 - Matterport3D (virtualized real environment)
-  * Xia et al., 2018 - High-fidelity simulation leveraging existing physics and rendering engines (Webots)
-  * Kolve et al., 2019 - AI2-THOR
-  * Chen C. et al., 2019 - CrowdNav
+  * Matterport3D (virtualized real environment) (Change t al., 2017)
+  * High-fidelity simulation leveraging existing physics and rendering engines, Webots (Xia et al., 2018)
+  * AI2-THOR (Kolve et al., 2019)
+  * CrowdNav (Chen C. et al., 2019)
     * 2D crowd and robot simulator that serves as a wrapper of OpenAI Gym (Brockman et al., 2016), which enables training and benchmarking of many reinforcement learning based algorithms.
   * SEAN-EP (Tsoi et al., 2020)
     * An experimental platform for collecting human feedback on socially-aware navigation in online interactive simulations
