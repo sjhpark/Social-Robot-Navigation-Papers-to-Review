@@ -219,6 +219,7 @@ Simulation experiments are commonly followed by demonstrations with physical rob
 
 ### 5.1.2. Evaluation Metrics
 **Metrics for Discomfrot:**
+
 Can be characterized generally by Physical and Psychological Safety.
 
 Prior Works have relied upon spatial models:
@@ -246,6 +247,7 @@ Qualitfying the similarity between the robot's trajectory and trajectory observe
     * The majority of existing datasets are limited to 2D trajectories and neglect the fact that navigational behaviros are multiodal in nature.
 
 **Metrics of Sociability:**
+
 Prior Works:
   * Pacchierotti et al. (2006) - Defined a set of social rules for hallway interactions, suggesting that robot should: 
     * 1) signal its intention by proactively moving
