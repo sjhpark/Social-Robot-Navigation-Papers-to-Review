@@ -188,9 +188,86 @@ Metrics related to naturalness focus on low-level behavioral patterns, i.e., how
 Discomfort (either physical or psychological) is typically quantified by Spatial Models and Subjective Ratings
 
 ### 4.3.1. Spatial Models
+Spatial Models for Individuals:
+
 The impact of a mobile robot's navigational behavior on human comfort is difficult to quantify.
  * Research suggests that the psychological comfort of humans is affected by interpersonal distance (Aiello, 1977; Baldassare, 1978; Greenberg et al., 1980).
- * Proxemic theory by Hall, 1966, suggests that an individual's perceived personal space consists of several layers of concentric circles structured by their social functions. 
+ * Proxemic theory by Hall, 1966, suggests that an individual's perceived personal space consists of several layers of concentric circles structured by their social functions. ![image](https://user-images.githubusercontent.com/83327791/210198136-6e26ce97-0c72-4b36-82bb-4bbf4d73dc8e.png)
+ * Rios-Martinez et al., 2015 - Shapes other than concentric circles (ovoids, ellipses, etc.) have been used to represent personal spaces and encode more complicated social rules 
+ * SFM (Social Force Model) (Helbing and Molnar, 1995)
+   * Represents the constraints of personal space as attractive or repulsive forces originating from each agent. ![image](https://user-images.githubusercontent.com/83327791/210198399-939ddcfa-8165-40b8-843b-57305c3fe0a0.png)
 
+Spatial Models for Groups:
+Static, conversational groups can be modeled using f-formation (Kendon, 2010).
+
+Extended Social Force Model (ESFM) was proposed to simulate dynamic social groups by Moussaid et al., 2010. ![image](https://user-images.githubusercontent.com/83327791/210198768-43078d94-ebfe-4afa-bd0b-6f30ee612df6.png)
+
+### 4.4. Sociability
+Measuring sociability is still largely difficult and is considered one of the key challenges in the field of socially-aware navigation (Mavrogiannis et al., 2021).
+
+## 5. Discussion of Limitations
+### 5.1. Limitations of Existing Evaluation Protocols/Methods
+Recent works on socially-aware navigation rely heavily on datasets and simulation experiments for evaluation (Mavrogiannis et al., 2021).
+  * This trend has been accelerated by advances in RL and data-driven approaches in general (e.g., Luber et al., 2012; Zhou et al., 2012; Alahi et al., 2014; Alahi et al., 2016; Kretzschmar et al., 2016; Park et al., 2016).
+  * Limitations: This type of evaluation makes strong assumptions about human and robot behaviors.
+    * In simulation experiments, researchers typically rely on pedestrian behavior models such as ORCA (Van Den Berg et al., 2011) and SFM (Helbing and Molnar, 1995).
+      * Reciprocal behavior models such as ORCA assume that each agnt is fully aware of its surroundings and the position and velocity of the other agents.
+  * 2D simulators such as Stage (Gerkey
+et al., 2003) and CrowdNav (Chen C. et al., 2019) are lightweight and easy to extend, but they oversimplify and abstract, rendering their results difficult to apply to the real world.
+
+Simulation experiments are commonly followed by demonstrations with physical robots in a real-world setting; while appropriate for proofs-of-concept, these demonstrations are mainly illustrative and lack statistical rigorousness.
+
+### 5.1.2. Evaluation Metrics
+**Metrics for Discomfrot:**
+Can be characterized generally by Physical and Psychological Safety.
+
+Prior Works have relied upon spatial models:
+  * Hall (1966) - Theory on proxemics and personal space
+  * Kendon, 2010 - f-formation for groups
+  * Hlbing and Molnar, 1995 - The Social Force Model (SFM)
+  * Moussaid et al., 2009 - The Extended Social Force Model (ESFM)
+  * Limitations of spatial model-based metrics:
+    * Homogeneity - All agents are assumed to be identical (possessing the same personal space and social forces, etc.)
+    * Do not have sufficient granularity to represent environmental contexts.
+      * e.g. Although people move and interact diffntly in different contexts, repulsive forces of SFM are all treated the same.
+    * Difficult to encode high-level social norms into these spatial models.
+
+**Metrics for Naturalness:**
+
+Qualitfying the similarity between the robot's trajectory and trajectory observed in human data
+
+  * ADE
+  * FED
+  * Dataset-oriented evaluation protocol has several limitations
+    * Human navigational behaviors and trajectories are context-dependent.
+      * The recorded human behaviors in a dataset are specific to the scenario in which the data was collected.
+    * Robots and humans afford distinct navigational behaviors and expectations.
+      * At the physical level, robots are quite dissimilar to humans and therefore afford different navigational behaviors, such as moving speed.
+    * The majority of existing datasets are limited to 2D trajectories and neglect the fact that navigational behaviros are multiodal in nature.
+
+**Metrics of Sociability:**
+Prior Works:
+  * Pacchierotti et al. (2006) - Defined a set of social rules for hallway interactions, suggesting that robot should: 
+    * 1) signal its intention by proactively moving
+to the right 
+    * 2) stay as far away from humans as the width of the
+hallway allows
+    * 3) wait until a person completely passes by before resuming normal navigation in order to avoid causing discomfort.
+  * Salek Shahrezaie et al. (2021) emphasized that social
+rules differ based on environmental contexts.
+
+### 5.2. Open Probelms of Socially-Aware Navigation
+Assumptions that are a result of the oversimplification and
+abstraction built into simulators:
+  * Homogeneity
+    * All agents are driven by a static behavior engine.
+  * Omniscience
+    * All agents have full awareness of their surroundings (Fraichard and Levesy, 2020)
+
+Most spatial models for crowd behavior and proxemics are derived from population data.
+  * The experiments and simulations using these spatial models often do not support diverse (by cultures, contexts, etc.) representation of different groups of people (Hurtado et al., 2021).
+  
+There is abundant evidence demonstrating that age (e.g., Nomura et al., 2009; Flandorfer, 2012), personality (e.g.,
+Walters et al., 2005; Robert, 2018), gender (e.g., Flandorfer, 2012; Strait et al., 2015), and cultural (e.g., Lim et al., 2020) differences may affect people's perceptions of and interactions with robotos.
 
 
