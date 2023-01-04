@@ -8,8 +8,6 @@
 
 [Human-Aware Robot Navigation: A Survey (2013)](https://hal.archives-ouvertes.fr/hal-01684295/document) - Reviewed
 
-[Human Motion Trajectory Prediction: A Survey](https://arxiv.org/abs/1905.06113)
-
 ## Papers
 
 [[SFM] Social force model for pedestrian dynamics](https://arxiv.org/abs/cond-mat/9805244) - Reviewed
@@ -77,6 +75,12 @@
 ---
 
 # Trajectory Prediction / Forecasting / Planning Papers Lists
+
+## Survey
+
+[Human Motion Trajectory Prediction: A Survey](https://arxiv.org/abs/1905.06113) - Under Review
+
+## Papers
 
 [Social Attention - Modeling attention in human crowds](https://arxiv.org/pdf/1710.04689.pdf) - Reviewed
 
