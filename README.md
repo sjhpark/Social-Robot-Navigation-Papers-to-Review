@@ -74,7 +74,7 @@
 
 [[NaviGAN] A Generative Approach for Socially Compliant Navigation(ICRA2020)](https://arxiv.org/pdf/2007.05616.pdf)
 
-[[PoliNet] Deep Visual MPC-Policy Learning for Navigation(IROS2019](https://arxiv.org/pdf/1903.02749.pdf)
+[[PoliNet] Deep Visual MPC-Policy Learning for Navigation(IROS2019)](https://arxiv.org/pdf/1903.02749.pdf)
 
 [DD-PPO: Learning Near-Perfect PointGoal Navigators from 2.5 Billion Frames(ICLR2020)](https://arxiv.org/pdf/1911.00357.pdf)
 
