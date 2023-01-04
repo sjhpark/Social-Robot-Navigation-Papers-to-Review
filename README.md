@@ -1,33 +1,10 @@
-# Reinforcement Learning
-
-## Lists of RL Papers
-
-[Key Papers in DRL](https://spinningup.openai.com/en/latest/spinningup/keypapers.html#id106)
-
-## Key Concepts & Terminology of RL
-[Concepts & Terminology of RL](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html#key-concepts-and-terminology)
-
-## RL Algorithms
-[Algorithms](https://spinningup.openai.com/en/latest/user/algorithms.html)
-
-[Kinds of RL Algoritms](https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html)
-
-![RL_Algorithms](https://user-images.githubusercontent.com/83327791/209822670-b36975d3-0fd5-4dcd-b7b5-33ca0afed5c9.png)
-
-## RL Paper Roadmap
-
-[RL Paper Roadmap](https://gitmind.com/app/docs/mahfscai)
-
-![RL_Roadmap](https://user-images.githubusercontent.com/83327791/209818467-31ee6eab-49b0-40d8-b9e4-8c00af315a2a.png)
-
----
 # Learning Based Navigation Paper Lists
 ## Survey
 [Evaluation of Socially-Aware Robot Navigation (2022)](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full) - Reviewed
 
 [Core Challenges of Social Robot Navigation: A Survey (2021)](https://arxiv.org/abs/2103.05668) - Reviewed
 
-[A Survey on Human-aware Robot Navigation (2021)](https://arxiv.org/pdf/2106.11650.pdf)
+[A Survey on Human-aware Robot Navigation (2021)](https://arxiv.org/pdf/2106.11650.pdf) - Under Review
 
 [Human-Aware Robot Navigation: A Survey (2013)](https://hal.archives-ouvertes.fr/hal-01684295/document) - Reviewed
 
@@ -35,7 +12,7 @@
 
 ## Papers
 
-[[SARL] CrowdNav](https://arxiv.org/abs/1809.08835)
+[[SFM] Social force model for pedestrian dynamics](https://arxiv.org/abs/cond-mat/9805244) - Reviewed
 
 [CADRL](https://arxiv.org/abs/1609.07845) - Reviewed
 
@@ -44,6 +21,12 @@
 [CADRL GA3C](https://arxiv.org/pdf/1805.01956.pdf) - Reviewed
 
 [Social GAN](https://arxiv.org/abs/1803.10892) - Reviewed
+
+[[SARL] CrowdNav](https://arxiv.org/abs/1809.08835) - Reviwed (Did not make notes during review)
+
+[Learning Crowd-Aware Robot Navigation from Challenging Environments via Distributed Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/9812011)- Reviewed
+
+[Proactive And Smooth Maneuvering For Navigation Around Pedestrians](https://ieeexplore.ieee.org/document/9812255) - Reviewed
 
 [A Deep Learning Approach To Multi-Context Socially-Aware Navigation](https://arxiv.org/pdf/2104.10197.pdf) - Reviewed
 
@@ -91,6 +74,49 @@
 
 [Socially Compliant Navigation through Raw Depth Inputs with Generative Adversarial Imitation Learning(ICRA2018)](https://arxiv.org/pdf/1710.02543.pdf)
 
+---
+
+# Trajectory Prediction / Forecasting / Planning
+
+[Social Attention - Modeling attention in human crowds](https://arxiv.org/pdf/1710.04689.pdf) - Reviewed
+
+[[Social LSTM] Human Trajectory Prediction in Crowded Spaces](https://cvgl.stanford.edu/papers/CVPR16_Social_LSTM.pdf) - Reviewed
+
+[[StopNet] Scalable Trajectory and Occupancy Prediction for Urban Autonomous Driving](https://arxiv.org/pdf/2206.00991.pdf) - Reviewed
+
+[[Trajectron++] Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data](https://arxiv.org/pdf/2001.03093.pdf) - Reviewed
+
+[[DAG-Net] Double Attentive Graph Neural Network for Trajectory Forecasting](https://arxiv.org/pdf/2005.12661.pdf) - Reviewed
+
+[[PreTraM] Self-Supervised Pre-training via Connecting Trajectory and Map](https://arxiv.org/pdf/2204.10435.pdf) - Reviewed
+
+[A temporal CNN with a novel convolution operator for human trajectory prediction](https://arxiv.org/pdf/2007.00862.pdf) - Reviewed
+
+[Real-Time Trajectory Planning for Autonomous Driving with Gaussian Process and Incremental Refinement](https://arxiv.org/pdf/2205.11853.pdf) - Reviewed
+
+---
+
+# Reinforcement Learning
+
+## Lists of RL Papers
+
+[Key Papers in DRL](https://spinningup.openai.com/en/latest/spinningup/keypapers.html#id106)
+
+## Key Concepts & Terminology of RL
+[Concepts & Terminology of RL](https://spinningup.openai.com/en/latest/spinningup/rl_intro.html#key-concepts-and-terminology)
+
+## RL Algorithms
+[Algorithms](https://spinningup.openai.com/en/latest/user/algorithms.html)
+
+[Kinds of RL Algoritms](https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html)
+
+![RL_Algorithms](https://user-images.githubusercontent.com/83327791/209822670-b36975d3-0fd5-4dcd-b7b5-33ca0afed5c9.png)
+
+## RL Paper Roadmap
+
+[RL Paper Roadmap](https://gitmind.com/app/docs/mahfscai)
+
+![RL_Roadmap](https://user-images.githubusercontent.com/83327791/209818467-31ee6eab-49b0-40d8-b9e4-8c00af315a2a.png)
 
 ---
 # References
