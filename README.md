@@ -41,7 +41,8 @@
 [A Collision Avoidance Method Based on Deep Reinforcement Learning](https://www.mdpi.com/2218-6581/10/2/73)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Collision%20Avoidance%20Method%20Based%20On%20DRL.md) - Reviewed
 
-[Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning (2020)](https://arxiv.org/abs/2010.08600v1) - Under Review
+[Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning (2020)](https://arxiv.org/abs/2010.08600v1)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Robot%20Navigation%20in%20Constrained%20Pedestrian%20Environments%20using%20RL.md) - Reviewed
 
 [Following Social Groups: Socially Compliant Autonomous Navigation in Dense Crowds](https://arxiv.org/abs/1911.12063)
 
