@@ -23,32 +23,33 @@
 ---
 # Learning Based Navigation Paper Lists
 ## Survey
-[Evaluation of Socially-Aware Robot Navigation (2022)](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full)
+[Evaluation of Socially-Aware Robot Navigation (2022)](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full) - Reviewed
 
-[Core Challenges of Social Robot Navigation: A Survey (2021)](https://arxiv.org/abs/2103.05668)
+[Core Challenges of Social Robot Navigation: A Survey (2021)](https://arxiv.org/abs/2103.05668) - Reviewed
 
 [A Survey on Human-aware Robot Navigation (2021)](https://arxiv.org/pdf/2106.11650.pdf)
 
-[Human-Aware Robot Navigation: A Survey (2013)](https://hal.archives-ouvertes.fr/hal-01684295/document)
+[Human-Aware Robot Navigation: A Survey (2013)](https://hal.archives-ouvertes.fr/hal-01684295/document) - Reviewed
 
 [Human Motion Trajectory Prediction: A Survey](https://arxiv.org/abs/1905.06113)
 
 ## Papers
-[Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning (2020)](https://arxiv.org/abs/2010.08600v1)
 
 [[SARL] CrowdNav](https://arxiv.org/abs/1809.08835)
 
-[CADRL](https://arxiv.org/abs/1609.07845)
+[CADRL](https://arxiv.org/abs/1609.07845) - Reviewed
 
-[SA CADRL](https://arxiv.org/abs/1803.10892)
+[SA CADRL](https://arxiv.org/abs/1803.10892) - Reviewed
 
-[CADRL GA3C](https://arxiv.org/pdf/1805.01956.pdf)
+[CADRL GA3C](https://arxiv.org/pdf/1805.01956.pdf) - Reviewed
 
-[A Collision Avoidance Method Based on Deep Reinforcement Learning](https://www.mdpi.com/2218-6581/10/2/73)
+[Social GAN](https://arxiv.org/abs/1803.10892) - Reviewed
 
-[A Deep Learning Approach To Multi-Context Socially-Aware Navigation](https://arxiv.org/pdf/2104.10197.pdf)
+[A Deep Learning Approach To Multi-Context Socially-Aware Navigation](https://arxiv.org/pdf/2104.10197.pdf) - Reviewed
 
-[Social GAN](https://arxiv.org/abs/1803.10892)
+[A Collision Avoidance Method Based on Deep Reinforcement Learning](https://www.mdpi.com/2218-6581/10/2/73) - Reviewed
+
+[Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning (2020)](https://arxiv.org/abs/2010.08600v1) - Under Review
 
 [Following Social Groups: Socially Compliant Autonomous Navigation in Dense Crowds](https://arxiv.org/abs/1911.12063)
 
