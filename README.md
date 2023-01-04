@@ -93,21 +93,29 @@
 
 ## Papers
 
-[Social Attention - Modeling attention in human crowds](https://arxiv.org/pdf/1710.04689.pdf) - Reviewed
+[Social Attention - Modeling attention in human crowds](https://arxiv.org/pdf/1710.04689.pdf)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Trajectory%20Forecasting/Social%20Attention%20-%20Modeling%20attention%20in%20human%20crowds.pdf) - Reviewed
 
-[[Social LSTM] Human Trajectory Prediction in Crowded Spaces](https://cvgl.stanford.edu/papers/CVPR16_Social_LSTM.pdf) - Reviewed
+[[Social LSTM] Human Trajectory Prediction in Crowded Spaces](https://cvgl.stanford.edu/papers/CVPR16_Social_LSTM.pdf)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Trajectory%20Forecasting/Social%20LSTM_%20Human%20Trajectory%20Prediction%20in%20Crowded%20Spaces.pdf) - Reviewed
 
-[[StopNet] Scalable Trajectory and Occupancy Prediction for Urban Autonomous Driving](https://arxiv.org/pdf/2206.00991.pdf) - Reviewed
+[[StopNet] Scalable Trajectory and Occupancy Prediction for Urban Autonomous Driving](https://arxiv.org/pdf/2206.00991.pdf)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Trajectory%20Forecasting/StopNet_%20Scalable%20Trajectory%20and%20Occupancy%20Prediction%20for%20Urban%20Autonomous%20Driving.pdf) - Reviewed
 
-[[Trajectron++] Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data](https://arxiv.org/pdf/2001.03093.pdf) - Reviewed
+[[Trajectron++] Dynamically-Feasible Trajectory Forecasting With Heterogeneous Data](https://arxiv.org/pdf/2001.03093.pdf)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Trajectory%20Forecasting/Trajectron%2B%2B_%20Dynamically-Feasible%20Trajectory%20Forecasting%20With%20Heterogeneous%20Data.pdf) - Reviewed
 
-[[DAG-Net] Double Attentive Graph Neural Network for Trajectory Forecasting](https://arxiv.org/pdf/2005.12661.pdf) - Reviewed
+[[DAG-Net] Double Attentive Graph Neural Network for Trajectory Forecasting](https://arxiv.org/pdf/2005.12661.pdf)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Trajectory%20Forecasting/DAG-Net_%20Double%20Attentive%20Graph%20Neural%20Network%20for%20Trajectory%20Forecasting.pdf) - Reviewed
 
-[[PreTraM] Self-Supervised Pre-training via Connecting Trajectory and Map](https://arxiv.org/pdf/2204.10435.pdf) - Reviewed
+[[PreTraM] Self-Supervised Pre-training via Connecting Trajectory and Map](https://arxiv.org/pdf/2204.10435.pdf)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Trajectory%20Forecasting/PreTraM_%20Self-Supervised%20Pre-training%20via%20Connecting%20Trajectory%20and%20Map.pdf) - Reviewed
 
-[A temporal CNN with a novel convolution operator for human trajectory prediction](https://arxiv.org/pdf/2007.00862.pdf) - Reviewed
+[A temporal CNN with a novel convolution operator for human trajectory prediction](https://arxiv.org/pdf/2007.00862.pdf)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Trajectory%20Forecasting/A%20temporal%20CNN%20with%20a%20novel%20convolution%20operator%20for%20human%20trajectory%20prediction.pdf) - Reviewed
 
-[Real-Time Trajectory Planning for Autonomous Driving with Gaussian Process and Incremental Refinement](https://arxiv.org/pdf/2205.11853.pdf) - Reviewed
+[Real-Time Trajectory Planning for Autonomous Driving with Gaussian Process and Incremental Refinement](https://arxiv.org/pdf/2205.11853.pdf)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Trajectory%20Forecasting/Real-Time%20Trajectory%20Planning%20for%20Autonomous%20Driving%20with%20Gaussian%20Process%20and%20Incremental%20Refinement.pdf) - Reviewed
 
 [Learning Social Etiquette - Human Trajectory Understanding in Crowded Scenes](https://svl.stanford.edu/assets/papers/ECCV16social.pdf) - Reviwed (Did not make notes during review)
 
