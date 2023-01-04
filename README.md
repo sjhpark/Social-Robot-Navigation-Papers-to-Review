@@ -1,4 +1,4 @@
-# Learning Based Navigation Paper Lists
+# Learning Based Navigation Papers Lists
 ## Survey
 [Evaluation of Socially-Aware Robot Navigation (2022)](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full) - Reviewed
 
@@ -76,7 +76,7 @@
 
 ---
 
-# Trajectory Prediction / Forecasting / Planning
+# Trajectory Prediction / Forecasting / Planning Papers Lists
 
 [Social Attention - Modeling attention in human crowds](https://arxiv.org/pdf/1710.04689.pdf) - Reviewed
 
