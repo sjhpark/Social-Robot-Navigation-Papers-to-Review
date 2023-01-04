@@ -1,4 +1,4 @@
-# Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning
+# Motion Planning Among Dynamic, Decision-Making Agents with Deep Reinforcement Learning (CADRL Paper - Conference Version)
 
 - In contrast to the previous methods (CADRL, SA-CADRL), GA3C-CADRL **does not assume
 the behavior of other decision-making agents**.
