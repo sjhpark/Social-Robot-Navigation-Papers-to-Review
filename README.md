@@ -22,7 +22,7 @@
 
 [Social GAN](https://arxiv.org/abs/1803.10892) - Reviewed
 
-[[SARL] CrowdNav](https://arxiv.org/abs/1809.08835) - Reviwed (Did not make notes during review)
+[[SARL] CrowdNav](https://arxiv.org/abs/1809.08835) - Reviewed (Did not make notes during review)
 
 [Learning Crowd-Aware Robot Navigation from Challenging Environments via Distributed Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/9812011)- Reviewed
 
