@@ -94,6 +94,10 @@
 
 [Real-Time Trajectory Planning for Autonomous Driving with Gaussian Process and Incremental Refinement](https://arxiv.org/pdf/2205.11853.pdf) - Reviewed
 
+[Learning Social Etiquette - Human Trajectory Understanding in Crowded Scenes](https://svl.stanford.edu/assets/papers/ECCV16social.pdf) - Reviwed (Did not make notes during review)
+
+[[SoPhie] - Attentive GAN for Predicting Paths Compliant to Social and Physical Constraints](https://openaccess.thecvf.com/content_CVPR_2019/papers/Sadeghian_SoPhie_An_Attentive_GAN_for_Predicting_Paths_Compliant_to_Social_CVPR_2019_paper.pdf) - Reviewed (Did not make notes during review)
+
 ---
 
 # Reinforcement Learning
