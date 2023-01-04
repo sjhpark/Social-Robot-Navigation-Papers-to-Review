@@ -1,4 +1,4 @@
-# Collision Avoidance in Pedestrian-Rich
+# Collision Avoidance in Pedestrian-Rich Environments with DRL (CADRL Paper - Journal Version)
 Environments with Deep Reinforcement
 Learning
 
