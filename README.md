@@ -1,6 +1,7 @@
 # Socially-Aware Navigation & Learning Based Navigation Papers Lists
 ## Survey
-[Evaluation of Socially-Aware Robot Navigation (2022)](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full) [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Core%20Challenges%20of%20Social%20Robot%20Navigation_%20A%20Survey.pdf) - Reviewed
+[Evaluation of Socially-Aware Robot Navigation (2022)](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full) 
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Core%20Challenges%20of%20Social%20Robot%20Navigation_%20A%20Survey.pdf) - Reviewed
 
 [Core Challenges of Social Robot Navigation: A Survey (2021)](https://arxiv.org/abs/2103.05668) - Reviewed
 
