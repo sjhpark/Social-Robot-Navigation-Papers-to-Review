@@ -1,35 +1,45 @@
 # Socially-Aware Navigation & Learning Based Navigation Papers Lists
 ## Survey
-[Evaluation of Socially-Aware Robot Navigation (2022)](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full) 
+[Evaluation of Socially-Aware Robot Navigation (2022)](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Evaluation%20of%20Socially-Aware%20Robot%20Navigation.md) - Reviewed
+
+[Core Challenges of Social Robot Navigation: A Survey (2021)](https://arxiv.org/abs/2103.05668)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Core%20Challenges%20of%20Social%20Robot%20Navigation_%20A%20Survey.pdf) - Reviewed
 
-[Core Challenges of Social Robot Navigation: A Survey (2021)](https://arxiv.org/abs/2103.05668) - Reviewed
+[A Survey on Human-aware Robot Navigation (2021)](https://arxiv.org/pdf/2106.11650.pdf)- Under Review
 
-[A Survey on Human-aware Robot Navigation (2021)](https://arxiv.org/pdf/2106.11650.pdf) - Under Review
-
-[Human-Aware Robot Navigation: A Survey (2013)](https://hal.archives-ouvertes.fr/hal-01684295/document) - Reviewed
+[Human-Aware Robot Navigation: A Survey (2013)](https://hal.archives-ouvertes.fr/hal-01684295/document)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Human-Aware%20Robot%20Navigation:%20A%20Survey.md) - Reviewed
 
 ## Papers
 
-[[SFM] Social force model for pedestrian dynamics](https://arxiv.org/abs/cond-mat/9805244) - Reviewed
+[[SFM] Social force model for pedestrian dynamics](https://arxiv.org/abs/cond-mat/9805244)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Social%20force%20model%20for%20pedestrian%20dynamics.pdf) - Reviewed
 
 [CADRL](https://arxiv.org/abs/1609.07845) - Reviewed
 
 [SA CADRL](https://arxiv.org/abs/1803.10892) - Reviewed
 
-[CADRL GA3C](https://arxiv.org/pdf/1805.01956.pdf) - Reviewed
+[CADRL GA3C](https://arxiv.org/pdf/1805.01956.pdf)
+| [Review - Conference Paper](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/CADRL%20GA3C%20-%20Conference%20Version.md)
+| [Review - Journal](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/%5BCADRL%20GA3C%5D%20Collision%20Avoidance%20in%20Pedestrian-Rich%20Environments%20with%20Deep%20Reinforcement%20Learning%20-%20Journal%20Version.md) - Reviewed
 
-[Social GAN](https://arxiv.org/abs/1803.10892) - Reviewed
+[Social GAN](https://arxiv.org/abs/1803.10892)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Social%20GAN_%20Socially%20Acceptable%20Trajectories%20with%20Generative%20Adversarial%20Networks.pdf) - Reviewed
 
 [[SARL] CrowdNav](https://arxiv.org/abs/1809.08835) - Reviewed (Did not make notes during review)
 
-[Learning Crowd-Aware Robot Navigation from Challenging Environments via Distributed Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/9812011)- Reviewed
+[Learning Crowd-Aware Robot Navigation from Challenging Environments via Distributed Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/9812011)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Learning%20Crowd-Aware%20Robot%20Navigation%20from%20Challenging%20Environments%20via%20Distributed%20Deep%20Reinforcement%20Learning.pdf) - Reviewed
 
-[Proactive And Smooth Maneuvering For Navigation Around Pedestrians](https://ieeexplore.ieee.org/document/9812255) - Reviewed
+[Proactive And Smooth Maneuvering For Navigation Around Pedestrians](https://ieeexplore.ieee.org/document/9812255)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Proactive%20And%20Smooth%20Maneuvering%20For%20Navigation%20Around%20Pedestrians.pdf) - Reviewed
 
-[A Deep Learning Approach To Multi-Context Socially-Aware Navigation](https://arxiv.org/pdf/2104.10197.pdf) - Reviewed
+[A Deep Learning Approach To Multi-Context Socially-Aware Navigation](https://arxiv.org/pdf/2104.10197.pdf)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/A%20Deep%20Learning%20Approach%20To%20Multi-Context%20Socially-Aware%20Navigation.md) - Reviewed
 
-[A Collision Avoidance Method Based on Deep Reinforcement Learning](https://www.mdpi.com/2218-6581/10/2/73) - Reviewed
+[A Collision Avoidance Method Based on Deep Reinforcement Learning](https://www.mdpi.com/2218-6581/10/2/73)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Collision%20Avoidance%20Method%20Based%20On%20DRL.md) - Reviewed
 
 [Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning (2020)](https://arxiv.org/abs/2010.08600v1) - Under Review
 
