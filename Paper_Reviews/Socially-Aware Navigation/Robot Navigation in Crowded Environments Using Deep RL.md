@@ -5,9 +5,13 @@ Lucia Liu, Daniel Dugas, Gianluca Cesari, Roland Siegwart, Renaud Dube
 2020
 
 ---
+**Key Idea: 
+1. The authors' SOADRL models **_differentiate static obstacles from standing pedestrians._** Many other DRL methods in social navigation such as SARL and CADRL don't differentiate static obstacles from pedestrians.
+2. The authors **_trained the models with full FOV and limited FOV._** SARL and CADRL consider that the robot's sensors have full (360 degree) FOV.
+
 ## Abstract
 * The authors used a combined imitation learning and deep RL approach for motion planning in crowded environments.
-* The authors separated processing information of static and dynamic objects to enable the network to learn motion patterns that are tailored to real-world environments.
+* The authors **separated processing information of static and dynamic objects** to enable the network to learn motion patterns that are tailored to real-world environments.
 * The authors' model is also designed to handle limited field of view of the equipped sensor.
 
 ## Introduction
@@ -95,15 +99,29 @@ The authors trained SOADRL in an environment that simulates the movesments of cr
 The authors used supervised imitation learning to reduce the training time of their model.
 
 ## Experiments
+Compared SOADRL-AM (angular map) and SOADRL-OG (occupancy grid).
+* Trained the models for full FOV and limited FOV operations.
+* Compared the models to ORCA, SARL with local map, and GA3C-CADRL.
+* ORCA was used for human policy for collision avoidance.
 
+Metrics used:
+* Success Rate
+* Collision Rate
+* Time to Goal
+* Discomfort Frequency
+  * Discomfort Distance: 0.2m 
 
+Case 1: Traned with Full FOV
+* ![image](https://user-images.githubusercontent.com/83327791/211174325-e8949ef9-01a0-4bbe-9bf0-8f03fc8673e5.png)
+  * SOADRL differentiates standing pedestrians from static obstacles.
+    * SARL and CADRL assume static obstacles as standing pedestrians.
+* ![image](https://user-images.githubusercontent.com/83327791/211174388-6abeb699-4e17-4e48-9a66-63bc4b5b353d.png)
+  * Note that ORCA is designed to have 0 collision rate and 9 discomfort frequency among pedestrians (where static obstacles are not considered).
 
+Case 2: Trained with Limited FOV
+* ![image](https://user-images.githubusercontent.com/83327791/211174727-5b3f6099-39fa-455a-a1e8-8184deeee4d3.png)
+* ![image](https://user-images.githubusercontent.com/83327791/211174739-bf47e16a-a636-4396-a510-54798624b4b2.png)
 
-
-
-
-
-
-
-
-
+Summary of the Experiments:
+* The authors' models SOADRL-AM and SOADRL-OG perform better than SARL and CADRL in the environment with static obstacles because SOADRL was designed to differentiate static obstacles from pedestrians.
+* SOADRL performs far better in the case of considering limited FOV.
