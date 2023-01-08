@@ -5,7 +5,7 @@ Lucia Liu, Daniel Dugas, Gianluca Cesari, Roland Siegwart, Renaud Dube
 2020
 
 ---
-**Key Idea:** 
+**Key Ideas:** 
 1. The authors' SOADRL models **_differentiate static obstacles from standing pedestrians._** Many other DRL methods in social navigation such as SARL and CADRL don't differentiate static obstacles from pedestrians.
 2. The authors **_trained the models with full FOV and limited FOV._** SARL and CADRL consider that the robot's sensors have full (360 degree) FOV.
 
