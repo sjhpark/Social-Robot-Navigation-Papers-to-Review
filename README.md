@@ -44,7 +44,8 @@
 [Robot Navigation in Constrained Pedestrian Environments using Reinforcement Learning (2020)](https://arxiv.org/abs/2010.08600v1)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Robot%20Navigation%20in%20Constrained%20Pedestrian%20Environments%20using%20RL.md) - Reviewed
 
-[[SOADRL] Robot Navigation in Crowded Environments Using Deep Reinforcement Learning(IROS2020)](https://ras.papercept.net/images/temp/IROS/files/0386.pdf) - Under Review
+[[SOADRL] Robot Navigation in Crowded Environments Using Deep Reinforcement Learning(IROS2020)](https://ras.papercept.net/images/temp/IROS/files/0386.pdf)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Robot%20Navigation%20in%20Crowded%20Environments%20Using%20Deep%20RL.md) - Reviewed
 
 [Following Social Groups: Socially Compliant Autonomous Navigation in Dense Crowds](https://arxiv.org/abs/1911.12063)
 
