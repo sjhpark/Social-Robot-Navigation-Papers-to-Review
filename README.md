@@ -27,7 +27,7 @@
 [Social GAN](https://arxiv.org/abs/1803.10892)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Social%20GAN_%20Socially%20Acceptable%20Trajectories%20with%20Generative%20Adversarial%20Networks.pdf) - Reviewed
 
-[[SARL] CrowdNav](https://arxiv.org/abs/1809.08835) - Reviewed (Did not make notes during review)
+[[SARL] CrowdNav](https://arxiv.org/abs/1809.08835) - Under Review
 
 [Learning Crowd-Aware Robot Navigation from Challenging Environments via Distributed Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/9812011)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Learning%20Crowd-Aware%20Robot%20Navigation%20from%20Challenging%20Environments%20via%20Distributed%20Deep%20Reinforcement%20Learning.pdf) - Reviewed
@@ -46,6 +46,8 @@
 
 [[SOADRL] Robot Navigation in Crowded Environments Using Deep Reinforcement Learning(IROS2020)](https://ras.papercept.net/images/temp/IROS/files/0386.pdf)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Robot%20Navigation%20in%20Crowded%20Environments%20Using%20Deep%20RL.md) - Reviewed
+
+[Arena-Rosnav: Towards Deployment of Deep-Reinforcement-Learning-Based Obstacle Avoidance into Conventional Autonomous Navigation Systems (IROS2021)](https://ieeexplore.ieee.org/document/9636226) - Under Review
 
 [Following Social Groups: Socially Compliant Autonomous Navigation in Dense Crowds](https://arxiv.org/abs/1911.12063)
 
