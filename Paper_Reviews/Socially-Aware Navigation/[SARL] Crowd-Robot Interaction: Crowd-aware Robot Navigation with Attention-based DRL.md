@@ -4,6 +4,10 @@ Changan Chem Yuejiang Liu, Sven Kreiss and Alexandre Alahi
 
 2019
 ---
+_* Key Idea:*_
+1. Many works using DRL techniques for social navigation consiers the navigation problem as a one-way Human-Robot interaction wihtout counting Human-Human interactions.
+2. Thus, the authors model Human-Robot Interaction using Human-Human Interaction since Human-Human interaction indirectly affects the robot's navigation planning capability.
+
 ## Abstract
 Recent works (w/ respect to 2019) have demonstrated DRL techniques to learn socially cooperative policies.
 * However, their cooperation ability deteriorates as the crowd grows.
@@ -170,10 +174,60 @@ The value network is trained by the _temporal-difference method_ with _standard 
   * Line 7: Optimal policy (optimal action) at time tcalculated from reward + discounted value function 
   * Line 8: Save (state, action, reward, next state) at the optimal action at time t
 
+## Approach
+Socially attentive network
+![image](https://user-images.githubusercontent.com/83327791/212340216-0316e479-8248-4fda-a0c7-7f66c296424b.png)
+* Interaction module - models Human-Robot interactions and encodes Human-Human interactions via coarse-grained local maps
+* Pooling module - aggregates the interactions into a fixed-length embedding vector by a self-attention mechanism
+* Planning module - estimates the value of the joint state of the robot and crowd for social navigation
 
- 
+### A. Parametrization
+The authors followed the same parameterization as in [19] CADRL and [22] GA3C-CADRL.
+* Robot is at the origin.
+* x-axis points toward the robot's goal
+* ![image](https://user-images.githubusercontent.com/83327791/212341186-6d7f4b84-7eeb-47a2-8aa4-527a6a73d01c.png)
 
+### B. Interaction Module
+Modeling all pairs of human interactions is computationally heavy.
 
+Thus, the authors used a pairwise interaction module.
+* Pairwise interaction module models Human-Robot interaction while using local maps as a coarse representation for Human-Human interactions.
 
+Interaction Module
+![image](https://user-images.githubusercontent.com/83327791/212344087-aaf9be20-cd93-4025-ae62-42ee8b401bf5.png)
+* Local Map Tensor M_i: a L x L x 3 tensor centered at eac human i to encode the presence and velocities of neighbors.
+  * L: size of neghborhood
+  * ![image](https://user-images.githubusercontent.com/83327791/212344496-722da3c6-6c95-4057-9015-0636ad552a0f.png)
+  * Indicator function ![image](https://user-images.githubusercontent.com/83327791/212344853-4d10ab1a-f1ab-4bfe-a24d-012466ede2f9.png)
+    * 1 if the relative position ![image](https://user-images.githubusercontent.com/83327791/212345008-d135fb0e-77f7-4c7b-9c45-41381f39c9aa.png) of human i and human j is located in the cell (a,b)
+* Embedding Vector e_i (fixed length vector using a MLP) ![image](https://user-images.githubusercontent.com/83327791/212345873-34837ae5-bdc3-4405-a643-433791dba65e.png)
+  * State of human i, map tensor M_i, and state of robot are embedded into the Embedding Vector e_i.
+  * ![image](https://user-images.githubusercontent.com/83327791/212347271-ba7ade05-aa23-4479-8039-9e12aee368ab.png)
+  * ![image](https://user-images.githubusercontent.com/83327791/212347338-2928bda4-b770-485f-b402-3c5306734357.png)
+* Pairwise interaction feature between robot and person i ![image](https://user-images.githubusercontent.com/83327791/212346494-b7e02acc-b2c7-4d98-853d-89275acaa138.png)
+  * ![image](https://user-images.githubusercontent.com/83327791/212346597-10bafa55-bced-4970-9199-728f63f95ec5.png)
+  * ![image](https://user-images.githubusercontent.com/83327791/212346615-4dfed8e5-91b3-4652-a623-3064e413aabf.png)
 
+### C. Pooling Module
+![image](https://user-images.githubusercontent.com/83327791/212346742-463ab578-c468-4bc7-84be-95df2137b558.png)
+* The model needs to handle an arbitrary number of huamns that is hugely different by different scenes.
+  * GA3C-CDARL [22] proposed: Feeding states of all humans into an LSTM sequentially in descending order of their distances to the robot, considering closest human as the most influencial agent.
+    * However, this is not always true. Other factors such as speed and direction also essential to correctly estimate the importance (influence) of a neighbor agent.
+* The authors propose a social attentive pooling module to learn the relative importance of each neighbor and the collective impact of the crowd.
+  * ![image](https://user-images.githubusercontent.com/83327791/212349656-7de52061-49eb-49ad-8ce7-d0d1e584055a.png)
+    * ![image](https://user-images.githubusercontent.com/83327791/212349893-d54c5adf-0855-4b88-9988-9aec7af5e1d3.png)
+  * ![image](https://user-images.githubusercontent.com/83327791/212349987-63e456e8-d9bb-4416-939c-e99a7a9f2b12.png)
 
+### C. Planning Module
+Estimates the state value v for cooperative planning
+![image](https://user-images.githubusercontent.com/83327791/212350902-e5b9e3ab-8920-4f17-b423-e16707384277.png)
+* ![image](https://user-images.githubusercontent.com/83327791/212350959-4baf6138-cfc1-4bb9-8974-22c8ee079d22.png)
+
+## Experiment
+The authors built a simulation environment in Python for robot navigation in crowds.
+* The simulated humans are controlled by ORCA.
+  * ORCA uses parameters sampled from Gaussian distribution for having behavioral diversity. 
+
+![image](https://user-images.githubusercontent.com/83327791/212354780-9a7730c1-9d72-4f8b-93b2-6150d266b042.png)
+* Invisible setting: Robot is invisible to neighboring humans
+* Visible setting: Robot is visible to neighboring humans
