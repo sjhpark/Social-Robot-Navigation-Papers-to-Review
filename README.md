@@ -27,7 +27,8 @@
 [Social GAN](https://arxiv.org/abs/1803.10892)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Social%20GAN_%20Socially%20Acceptable%20Trajectories%20with%20Generative%20Adversarial%20Networks.pdf) - Reviewed
 
-[[SARL] CrowdNav](https://arxiv.org/abs/1809.08835) - Under Review
+[[SARL] CrowdNav](https://arxiv.org/abs/1809.08835)
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/%5BSARL%5D%20Crowd-Robot%20Interaction:%20Crowd-aware%20Robot%20Navigation%20with%20Attention-based%20DRL.md) - Reviewed
 
 [Learning Crowd-Aware Robot Navigation from Challenging Environments via Distributed Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/9812011)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Learning%20Crowd-Aware%20Robot%20Navigation%20from%20Challenging%20Environments%20via%20Distributed%20Deep%20Reinforcement%20Learning.pdf) - Reviewed
