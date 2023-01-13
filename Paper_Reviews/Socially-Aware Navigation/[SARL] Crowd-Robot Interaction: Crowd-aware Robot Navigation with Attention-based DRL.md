@@ -164,9 +164,12 @@ _**The authors follow the formulation of the reward function (defined in CADRL &
 ### Value Network Training
 The value network is trained by the _temporal-difference method_ with _standard experience replay_ and _fixed target network techniques_.
 ![image](https://user-images.githubusercontent.com/83327791/212256512-46b1582d-38b6-49d7-8cb2-dfbcb6139ca1.png)
-* Lines 1-3: The value network V is initialized with imitation learning using a set of demonstrator experiences D.
+* Lines 1-3: The value network V is initialized with imitation learning using a set of demonstrator experiences D. 
+  * Experience Replay Memory E is also initialized.
 * Lines 4-14: The model is subsequently refined from experience of interactions.
-  * Line 7: Optimal policy (optimal action) calculated from reward + discounted value function 
+  * Line 7: Optimal policy (optimal action) at time tcalculated from reward + discounted value function 
+  * Line 8: Save (state, action, reward, next state) at the optimal action at time t
+
 
  
 
