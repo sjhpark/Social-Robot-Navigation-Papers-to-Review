@@ -25,7 +25,7 @@ With improvements in ML and DRL, recent works started to use neural networks for
 * Some other works modeled humans explicitly to capture individual interactions BUT did not differentiate pedestrians from static obstacles.
   * [12] SA-CADRL, [13] GA3C-CADRL, [14] SARL from CrowdNav
     * Assume a 360 degree FOV (field of view).
-    * SARL developed a neural network that explicitly models human-robot and robot-robot interactions. However, it does not specifically model static obstacles but rather incorporated static obstacles as standing pedestrians.
+    * SARL developed a neural network that explicitly models human-robot and human-human interactions. However, it does not specifically model static obstacles but rather incorporated static obstacles as standing pedestrians.
 
 The authors suggest that the robot should move differently when approaching static obstacles compared to dynamic obstacles (pedestrians).
 
