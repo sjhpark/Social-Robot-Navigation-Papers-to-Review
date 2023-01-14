@@ -152,7 +152,7 @@ Datasets are also used to evaluate and benchmark the performance of socially-awa
 Three key aspects of socially-aware navigation (Kruse et al., 2013):
   * **Discomfort** - Represents the level of annoyance, stress, or danger as induced by the presence of the robot
   * **Naturalness** - Captures motion-level similarity between robots and people
-  * **Sociability** - Encapsulates how weel the robot follows the social norms expected by surrounding pedestrians
+  * **Sociability** - Encapsulates how well the robot follows the social norms expected by surrounding pedestrians
 
 ### 4.1. Navigation Performance
   * Navigation Efficiency:
