@@ -94,10 +94,10 @@ Another challenge comes from moving in densely crowded areas.
   * Muller et al. [62] and Tamura et al. [94] - The robot movs along with the people moving in the same direction leading towards the goal of the robot.
 
 ### 2.3. Motion Under Social Constraints (Sociability)
-There are social rules and norms such as standing in a queue, letting people leave an elvator before entering, giving priority to elderly people at doorways, walking o the right-hand isde of corridors, etc.
+There are social rules and norms such as standing in a queue, letting people leave an elevator before entering, giving priority to elderly people at doorways, walking on the right-hand side of corridors, etc.
 
 We separate following social rules/norms from comfortable and natural motions.
- * There could be cases where social rules and violated but comfort and naturalness are satisfied.
+ * There could be cases where social rules are violated but comfort and naturalness are satisfied.
 
 Several authors investigate improved approach directions to initiate explicit interaction [1, 10, 17, 43,
 46, 63, 93], suggesting that the **discomfort is caused by the violation of a social rule, rather than a violation
