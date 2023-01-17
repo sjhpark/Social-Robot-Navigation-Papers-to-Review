@@ -77,7 +77,7 @@ Socially aware DRL-based planner
 The authors incorporate the global planner for long range navigation and specifically deploy the planners on multiple highly dynamic environments.
 * Similar to their work, [19] combined a DRL-based local planner with a conventional global planner.
   * [19] R. Güldenring, M. Görner, N. Hendrich, N. J. Jacobsen, and J. Zhang, “Learning local planners for human-aware navigation in indoor environments.”
-  * Limitation: Only simple sub-sampling of the gloabl path is employed. No replanning capability is employed which leads to hidrane when there are multiple humans blocking the way.
+  * Limitation: Only simple sub-sampling of the gloabl path is employed. No replanning capability is employed which leads to hindrance when there are multiple humans blocking the way.
     * _Thus, the authors introduce an intermdeiate planner to spawn way-points more intelligent._
     * _The authors add replanning functionality based on spatial and time horizons._
 
