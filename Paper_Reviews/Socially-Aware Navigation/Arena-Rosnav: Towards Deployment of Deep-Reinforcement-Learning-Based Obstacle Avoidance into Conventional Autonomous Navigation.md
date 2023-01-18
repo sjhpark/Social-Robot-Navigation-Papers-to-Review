@@ -9,6 +9,7 @@ Key Ideas:
 * There have been many DRL approaches for navigation. However, they are NOT suitable for long-range navigation due to:
   * proness to local minima
   * lack of long term memory
+* My thought: However, the authors' approach still does not differentiate static & dynamic obstacles from standing & moving humans.
 
 The authors propose: 
 * Framework for training and testing DRL algorithms + Conventional navigation approaches
@@ -142,11 +143,56 @@ Total Reward R: Sum of all sub-rewards
     * r_c: collision reward
 
 #### 3. Neural Network Architecture and Agent Design
+![image](https://user-images.githubusercontent.com/83327791/213253277-935d00cb-d9b4-4b10-9068-e4e98c347cfd.png)
+* 2 Neural Networks: 1 for value function & 1 for policy function
+  * Inputs -> 2 Fully Connected (FC) layers -> Gated Recurrent Unit (GRU) -> FC layer -> Output layer -> Policy function
+  * Inputs -> 2 Fully Connected (FC) layers -> Gated Recurrent Unit (GRU) -> FC layer -> Output layer -> Value function
+    * After each FC layer, ReLU activation was used 
+* Inputs
+  * 360 degree Lidar scan data
+  * goal position w.r.t robot
+  * angle w.r.t. robot
 
+#### 4. Training Setup
+![image](https://user-images.githubusercontent.com/83327791/213254936-ac81c181-2d8f-461e-b475-616cb45d201d.png)
+* The robot agent is trained on randomized environments to avoid over-fitting and enhance generalization.
+  * Walls and static obstacles are spawned randomly after each episode.
+  * Curriculum training: More obstacles are spawned if a success threshold is reached. Else, less obstacles are spawned.
 
+#### 5. Inegration of Obstacle Avoidance and Alternative Approaches
+For comparison of the authors' DRL-based local planner "Arena" with other approaches, the authors integrate various optimization-based obstacle avoidance algorithms into ROS.
+* Timed Elastic Bands (TEB) (model-based local planner)
+* Dynamic Windows Approach (DWA) (model-based local planner)
+* Model Predictive Control (MPC) (model-based local planner)
+* CADRL (learning-based obstacle avoidance based on DRL)
+* SARL from CrowdNav (learning-based obstacle avoidance based on DRL)
 
+## Results and Evaluation
+Local Planner comparison:
+* Compared Arena with TEB, DWA, MPC, and CADRL.
+* A* planner is used as the global planner for all the local planners compared.
 
+Tested on 2 different maps:
+* Office
+* Empty map
 
+### A. Qualitative Evaluation
+![image](https://user-images.githubusercontent.com/83327791/213258696-83aa49f4-29f0-4e44-9414-e08669b7b077.png)
+* ARENA replans more efficiently in highly dynamic environment by using the spatial and time horizons which triggers a replanning when the robot is stuck for more than 4 seconds.
+* In general, model-based approaches (TEB, DWA, MPC) follow the global path more consistently while learning-based apporaches (CADRL, ARENA) make decision earlier thus more often got off-track when avoiding obstacles.
+
+### B. Quantitative Evaluation
+![image](https://user-images.githubusercontent.com/83327791/213262587-31c74668-c0a4-4554-a736-0e5bf9f034f9.png)
+![image](https://user-images.githubusercontent.com/83327791/213262655-5dafefe9-1a31-4304-80e4-467268a7db38.png)
+
+Metrics used:
+* Avg distance traveled
+* Avg time to reach the goal
+* Collision rates with all objects
+* Success rate (rate of reaching goal with less than 2 collisions)
+  * time out = 3 minutes
+
+#### 1. Safety and Robustness
 
 
 
