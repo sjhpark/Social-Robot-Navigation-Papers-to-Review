@@ -179,11 +179,17 @@ Tested on 2 different maps:
 ### A. Qualitative Evaluation
 ![image](https://user-images.githubusercontent.com/83327791/213258696-83aa49f4-29f0-4e44-9414-e08669b7b077.png)
 * ARENA replans more efficiently in highly dynamic environment by using the spatial and time horizons which triggers a replanning when the robot is stuck for more than 4 seconds.
+* ARENA and CADRL manage to keep a direct path towards the goal and still have less collisions compared to the model-based planners (TEB, DWA, MPC).
 * In general, model-based approaches (TEB, DWA, MPC) follow the global path more consistently while learning-based apporaches (CADRL, ARENA) make decision earlier thus more often got off-track when avoiding obstacles.
 
 ### B. Quantitative Evaluation
 ![image](https://user-images.githubusercontent.com/83327791/213262587-31c74668-c0a4-4554-a736-0e5bf9f034f9.png)
+* **based on the authors' evlaution report about Overall Performance in pg.7, it seems to me that the plot (f) in Figure 5 is about Empty Map, not Office Map.**
+
 ![image](https://user-images.githubusercontent.com/83327791/213262655-5dafefe9-1a31-4304-80e4-467268a7db38.png)
+* **based on the authors' evlaution report about Overall Performance in pg.7, it seems to me that the plot (f) in Figure 6 is about Office Map, not Empty Map**
+
+![image](https://user-images.githubusercontent.com/83327791/213327152-645f5f01-5dcd-4946-a077-2e68d4755a22.png)
 
 Metrics used:
 * Avg distance traveled
@@ -193,16 +199,33 @@ Metrics used:
   * time out = 3 minutes
 
 #### 1. Safety and Robustness
+Learning-based local planners (CADRL and ARENA) managed to have a high success rate with a high number of dynamic obstacles than model-based local planners (TEB, DWA, MPC).
+- Learning-based local planners even outperformed more when the obstacle velocity was higher.
+- Overall, ARENA planner was superior in terms of success rate and safety with increasing number of obstacles and their velocity.
 
+#### 2. Efficiency
+In terms of efficiency, MPC outperformed the other model-based and learning-based local planners.
+- MPC achieved the shortest time and shortest trajectories.
+- However, MPC's success rate decreased and collision rates increased and were not the best when the number of obstacles and their velocity increased.
 
+#### 3. Overall Performance
+All the local planners' average perofmances based on each metric (safety, robustness, efficiency) are compared relatively against the ARENA's average performance. The results are in percentage.
 
+Office Map (maybe)
+* ![image](https://user-images.githubusercontent.com/83327791/213329089-5a568be7-4026-43cf-8c51-b42a0da2692b.png)
+  * **Based on this performance report, I have one doubt. If the model-based local planners such as MPC and TEB outperformed the learning-based local planners (CADRL and ARENA) when the obstacle velocity was less than around 0.2m/s, wouldn't it mean that the model-based local planners will outperform the learning-based local planners when the obstacles are static (e.g. surrounding pedestrians are standing)?**
 
+Empty Map (maybe)
+* ![image](https://user-images.githubusercontent.com/83327791/213328992-ec121525-c2a6-4865-b307-67d2f652f30d.png)
 
+TEB and MPC outperformed ARENA when the obstacle velocity is less than around 0.2m/s.
 
+Model-based local planners performed better in the Office (has static obstacles) than Empty Map (no static obstacles) because they are highly dependent to the global planner and a global map where static obstacle are used as marker points. 
 
+ARENA started to outperform all the other local planners from the obstacle velocity greater than around 0.2m/s.
 
-
-
-
-
+CADRL achieved similar performance to ARENA. However:
+* CADRL requires the exact positions of obstacles.
+* CADRL only works with circular obstacles.
+* In contrast, ARENA was trained on laser scan observations, so ARENA can work with any kind of obstacles without prior knowledge of its exact position. 
 
