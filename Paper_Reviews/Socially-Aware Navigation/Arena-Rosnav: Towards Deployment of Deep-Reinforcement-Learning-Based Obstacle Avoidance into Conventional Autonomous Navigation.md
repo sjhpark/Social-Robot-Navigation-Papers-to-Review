@@ -10,6 +10,8 @@ Key Ideas:
   * proness to local minima
   * lack of long term memory
 * My thought: However, the authors' approach still does not differentiate static & dynamic obstacles from standing & moving humans.
+* My doubt: According to the authors' performance report, the model-based local planners such as MPC and TEB outperformed the learning-based local planners (CADRL and ARENA) when the obstacle velocity was less than around 0.2m/s, wouldn't it mean that the model-based local planners will outperform the learning-based local planners when the obstacles are static (e.g. surrounding pedestrians are standing)?
+* Question: Plot (f) in Figure 5 and Plot (f) in Figure 6 seem to be swapped?
 
 The authors propose: 
 * Framework for training and testing DRL algorithms + Conventional navigation approaches
