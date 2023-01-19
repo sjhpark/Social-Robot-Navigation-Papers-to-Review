@@ -185,6 +185,7 @@ Tested on 2 different maps:
 ### B. Quantitative Evaluation
 ![image](https://user-images.githubusercontent.com/83327791/213262587-31c74668-c0a4-4554-a736-0e5bf9f034f9.png)
 * **based on the authors' evlaution report about Overall Performance in pg.7, it seems to me that the plot (f) in Figure 5 is about Empty Map, not Office Map.**
+  * ![image](https://user-images.githubusercontent.com/83327791/213332324-f71f7bc0-aaf1-482b-bbdc-4b36a6f7ddba.png) 
 
 ![image](https://user-images.githubusercontent.com/83327791/213262655-5dafefe9-1a31-4304-80e4-467268a7db38.png)
 * **based on the authors' evlaution report about Overall Performance in pg.7, it seems to me that the plot (f) in Figure 6 is about Office Map, not Empty Map**
