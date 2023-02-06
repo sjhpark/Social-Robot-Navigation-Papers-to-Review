@@ -17,11 +17,11 @@
 
 [IROS2022 - Feedback-efficient_Active_Preference_Learning_for_Socially_Aware_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981616) - Under Review
 
-[IROS2022 - SESNO:_Sample_Efficient_Social_Navigation_from_Observation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981645) - Under Review
-
 [IROS2022 - Addressing_Invisible_Humans_in_Social_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9982186) - Under Review
 
 [IROS2022 - DRL_based_Robot_Navigation_in_Dynamic_Environments_using_Occupancy_Values_of_Motion_Primitives](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9982133) - Under Review
+
+[IROS2022 - SESNO:_Sample_Efficient_Social_Navigation_from_Observation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981645) - Under Review
 
 [IROS2022 - SocialGym_A_Framework_for_Benchmarking_Social_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9982021)
 
