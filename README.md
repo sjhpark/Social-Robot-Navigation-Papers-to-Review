@@ -11,6 +11,19 @@
 [Human-Aware Robot Navigation: A Survey (2013)](https://hal.archives-ouvertes.fr/hal-01684295/document)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Human-Aware%20Robot%20Navigation:%20A%20Survey.md) - Reviewed
 
+## IROS 2022 Papers
+[IROS2022 - Addressing_Invisible_Humans_in_Social_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9982186) - Under Review
+
+[IROS2022 - DRL_based_Robot_Navigation_in_Dynamic_Environments_using_Occupancy_Values_of_Motion_Primitives](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9982133) - Under Review
+
+[IROS2022 - Feedback-efficient_Active_Preference_Learning_for_Socially_Aware_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981616) - Under Review
+
+[IROS2022 - Learning_a_Group-Aware_Policy_for_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981183) - Under Review
+
+[IROS2022 - SESNO:_Sample_Efficient_Social_Navigation_from_Observation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981645) - Under Review
+
+[IROS2022 - SocialGym_A_Framework_for_Benchmarking_Social_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9982021) - Under Review
+
 ## Papers
 
 [[SFM] Social force model for pedestrian dynamics](https://arxiv.org/abs/cond-mat/9805244)
