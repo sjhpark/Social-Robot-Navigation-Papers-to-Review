@@ -13,7 +13,7 @@
 
 ## IROS 2022 Papers
 
-[IROS2022 - Learning_a_Group-Aware_Policy_for_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981183) - Under Review
+[IROS2022 - Learning_a_Group-Aware_Policy_for_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981183) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/IROS2022%20-%20Learning%20a%20Group-Aware%20Policy%20for%20Robot%20Navigation.md) - Reviewd
 
 [IROS2022 - Feedback-efficient_Active_Preference_Learning_for_Socially_Aware_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981616) - Under Review
 
