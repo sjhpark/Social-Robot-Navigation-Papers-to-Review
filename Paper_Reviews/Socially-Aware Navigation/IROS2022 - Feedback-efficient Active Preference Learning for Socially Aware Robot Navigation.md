@@ -82,5 +82,16 @@ Soft Actor-Critic (SAC) has 2 parts:
   - ![image](https://user-images.githubusercontent.com/83327791/218609242-0be4cec9-87a7-4dca-8104-c7d1ca8e58f5.png)
 
 
+## Summary
+Below is how the step by step overview of how the authors implemented human preferences to avoid hand-crafting a reward function:
 
+1. Task and environment setup: The authors first defined a robot navigation task in a simulated environment, where the robot had to navigate to a goal location while avoiding obstacles and respecting social norms and safety constraints. They also defined a set of features that captured both objective and subjective aspects of the environment and the robot behavior, such as the distance to the goal, the speed of the robot, or the proximity to human bystanders.
+
+2. Pairwise preference elicitation: The authors then collected human feedback in the form of pairwise comparisons between different navigation options presented by the robot in the simulated environment. For each comparison, the human user was asked to choose which option they preferred based on their subjective criteria.
+
+3. Probit regression modeling: The authors used a probit regression model to relate the features of the environment and the robot behavior to the binary preferences obtained from the pairwise comparisons. The probit regression model assumed that the probability of a human user preferring one navigation option over another depended on a linear combination of the features and a latent factor capturing unobserved aspects of human preferences. The latent factor was modeled using a Gaussian process with a hierarchical prior that allowed for the sharing of information across different contexts or tasks.
+
+4. Bayesian inference and active learning: The authors used Bayesian inference to learn the parameters of the probit regression model and to update the posterior distribution of the latent factor and the preferences based on the feedback data. They also used an active learning strategy that selected the most informative queries based on the posterior uncertainty and the expected improvement in the preference predictions. The active learning approach allowed the robot to explore the preference space more efficiently and to adapt its behavior to the human preferences in real-time.
+
+5. Evaluation and comparison: The authors evaluated the proposed approach in a simulation environment with human participants, and compared it to baseline methods that relied on hand-crafted reward functions or simple heuristics. The evaluation showed that the proposed approach achieved higher accuracy and efficiency in preference learning and led to more socially aware and acceptable robot navigation behavior.
 
