@@ -12,8 +12,6 @@
 [Model-free Deep Reinforcement Learning for Urban Autonomous Driving](https://arxiv.org/pdf/1904.09503.pdf)
 
 
-# Social Robot Navigation
-
 ## Survey
 [Evaluation of Socially-Aware Robot Navigation (2022)](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Evaluation%20of%20Socially-Aware%20Robot%20Navigation.md) - Reviewed
@@ -42,7 +40,7 @@
 [IROS2022 - SocialGym_A_Framework_for_Benchmarking_Social_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9982021)
 
 
-## Papers
+## # Social Robot Navigation Papers
 
 [[SFM] Social force model for pedestrian dynamics](https://arxiv.org/abs/cond-mat/9805244)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Social%20force%20model%20for%20pedestrian%20dynamics.pdf) - Reviewed
