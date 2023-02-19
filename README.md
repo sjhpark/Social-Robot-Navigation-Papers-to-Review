@@ -11,11 +11,13 @@
 [Human-Aware Robot Navigation: A Survey (2013)](https://hal.archives-ouvertes.fr/hal-01684295/document)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Human-Aware%20Robot%20Navigation:%20A%20Survey.md) - Reviewed
 
+---
+
 ## IROS 2022 Papers
 
 [IROS2022 - Learning_a_Group-Aware_Policy_for_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981183) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/IROS2022%20-%20Learning%20a%20Group-Aware%20Policy%20for%20Robot%20Navigation.md) - Reviewd
 
-[IROS2022 - Feedback-efficient_Active_Preference_Learning_for_Socially_Aware_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981616) - Under Review
+[IROS2022 - Feedback-efficient_Active_Preference_Learning_for_Socially_Aware_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981616) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/IROS2022%20-%20Feedback-efficient%20Active%20Preference%20Learning%20for%20Socially%20Aware%20Robot%20Navigation.md) - Reviewed
 
 [IROS2022 - Addressing_Invisible_Humans_in_Social_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9982186) - Under Review
 
@@ -25,7 +27,16 @@
 
 [IROS2022 - SocialGym_A_Framework_for_Benchmarking_Social_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9982021)
 
-## Papers
+## Reward Function
+[IROS2022 - Feedback-efficient_Active_Preference_Learning_for_Socially_Aware_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981616) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/IROS2022%20-%20Feedback-efficient%20Active%20Preference%20Learning%20for%20Socially%20Aware%20Robot%20Navigation.md) - Reviewed
+
+[Inverse Reward Design](https://proceedings.neurips.cc/paper/2017/file/32fdab6559cdfa4f167f8c31b9199643-Paper.pdf) - Under Review
+
+[Socially aware robot navigation in crowds via deep reinforcement learning withresilient reward functions](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2043184) - Under Review
+
+---
+
+## Social Robot Navigation Papers
 
 [[SFM] Social force model for pedestrian dynamics](https://arxiv.org/abs/cond-mat/9805244)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Social%20force%20model%20for%20pedestrian%20dynamics.pdf) - Reviewed
@@ -104,6 +115,7 @@
 [Socially Compliant Navigation through Raw Depth Inputs with Generative Adversarial Imitation Learning(ICRA2018)](https://arxiv.org/pdf/1710.02543.pdf)
 
 ---
+
 
 # Trajectory Prediction / Forecasting / Planning Papers Lists
 
