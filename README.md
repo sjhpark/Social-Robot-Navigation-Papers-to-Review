@@ -5,7 +5,7 @@
 
 [Inverse Reward Design](https://proceedings.neurips.cc/paper/2017/file/32fdab6559cdfa4f167f8c31b9199643-Paper.pdf) - Under Review
 
-[Learning Reward Functions byIntegrating Human Demonstrations and Preferences](https://arxiv.org/pdf/1906.08928.pdf) - Under Review
+[Learning Reward Functions by Integrating Human Demonstrations and Preferences](https://arxiv.org/pdf/1906.08928.pdf) - Under Review
 
 [Reward Machines: Exploiting Reward Function Structure in Reinforcement Learning](https://arxiv.org/pdf/2010.03950.pdf) - Under Review
 
