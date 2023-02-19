@@ -5,7 +5,11 @@
 
 [Inverse Reward Design](https://proceedings.neurips.cc/paper/2017/file/32fdab6559cdfa4f167f8c31b9199643-Paper.pdf) - Under Review
 
-[Socially aware robot navigation in crowds via deep reinforcement learning withresilient reward functions](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2043184) - Under Review
+[Learning Reward Functions byIntegrating Human Demonstrations and Preferences](https://arxiv.org/pdf/1906.08928.pdf) - Under Review
+
+[Reward Machines: Exploiting Reward Function Structure in Reinforcement Learning](https://arxiv.org/pdf/2010.03950.pdf) - Under Review
+
+[Socially aware robot navigation in crowds via deep reinforcement learning with resilient reward functions](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2043184)
 
 
 ## Model-free Reinforcement Learning (for subjects other than social robot navigation)
