@@ -1,4 +1,19 @@
 # Socially-Aware Navigation & Learning Based Navigation Papers Lists
+
+## Reward Function
+[IROS2022 - Feedback-efficient_Active_Preference_Learning_for_Socially_Aware_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981616) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/IROS2022%20-%20Feedback-efficient%20Active%20Preference%20Learning%20for%20Socially%20Aware%20Robot%20Navigation.md) - Reviewed
+
+[Inverse Reward Design](https://proceedings.neurips.cc/paper/2017/file/32fdab6559cdfa4f167f8c31b9199643-Paper.pdf) - Under Review
+
+[Socially aware robot navigation in crowds via deep reinforcement learning withresilient reward functions](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2043184) - Under Review
+
+
+## Model-free Reinforcement Learning (for subjects other than social robot navigation)
+[Model-free Deep Reinforcement Learning for Urban Autonomous Driving](https://arxiv.org/pdf/1904.09503.pdf)
+
+---
+# Social Robot Navigation
+
 ## Survey
 [Evaluation of Socially-Aware Robot Navigation (2022)](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Evaluation%20of%20Socially-Aware%20Robot%20Navigation.md) - Reviewed
@@ -27,15 +42,7 @@
 [IROS2022 - SocialGym_A_Framework_for_Benchmarking_Social_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9982021)
 
 
-## Reward Function
-[IROS2022 - Feedback-efficient_Active_Preference_Learning_for_Socially_Aware_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981616) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/IROS2022%20-%20Feedback-efficient%20Active%20Preference%20Learning%20for%20Socially%20Aware%20Robot%20Navigation.md) - Reviewed
-
-[Inverse Reward Design](https://proceedings.neurips.cc/paper/2017/file/32fdab6559cdfa4f167f8c31b9199643-Paper.pdf) - Under Review
-
-[Socially aware robot navigation in crowds via deep reinforcement learning withresilient reward functions](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2043184) - Under Review
-
-
-## Social Robot Navigation Papers
+## Papers
 
 [[SFM] Social force model for pedestrian dynamics](https://arxiv.org/abs/cond-mat/9805244)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Social%20force%20model%20for%20pedestrian%20dynamics.pdf) - Reviewed
@@ -115,8 +122,7 @@
 
 ---
 
-
-# Trajectory Prediction / Forecasting / Planning Papers Lists
+# Trajectory Prediction / Forecasting / Planning
 
 ## Survey
 
