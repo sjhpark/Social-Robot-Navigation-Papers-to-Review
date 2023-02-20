@@ -1,0 +1,41 @@
+# Learning Reward Functions by Integrating Human Demonstrations and Preferences
+
+Malayandi Palan*, Nicholas C. Landolfi*, Gleb Shevchuk, Dorsa Sadigh
+
+2019
+
+---
+
+## Abstract
+Key ideas
+- Current approaches to learn reward functions:
+  - IRL (Inverse Reinforcement Learning)
+    - difficult to get high-quality demonstrations
+  - Preference-based Learning
+    - inefficient since it learns a continuous high-dimensional function from binary feedback / preference (e.g. good or bad)
+- Proposal:
+  - DemPref: uses both demonstrations and preference to learn a reward function.
+    - use the demonstrations to learn a coarse prior over the space of reward functions (to reduce the effective size of the space from which queries are generated)
+    - use the demonstrations to ground the (active) query generation process (to improve the quality of generated queries)
+    - alleviate the efficiency issue faced by standard preference-based learning methods
+
+## Introduction
+It is hard to handcarft a reward function that perfectly encodes the robot's desired behavior in every aspect
+- can lead to undesired and even dangerous behavior
+
+### Current approaches to learn a reward function without handcrafting
+- Inverse Reinforcement Learning (IRL)
+  - learns a reward function directly from expert demonstrations
+  - requires high-quality demonstrations
+    - not feasible (e.g. demonstrations of high DOF robotic arm control is not feasible)
+- Preference-based Learning
+  - learns a reward function by repeatedly asking a human to pick between two options
+  - inefficient since it learns a continuous reward function from binary feedback
+
+### Proposed approach (DemPref): Learning a reward function from both demonstrations & preference
+Key insight: demonstrations and preferences are complementary.
+
+
+
+
+
