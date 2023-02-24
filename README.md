@@ -3,10 +3,9 @@
 ## Reward Function
 [IROS2022 - Feedback-efficient_Active_Preference_Learning_for_Socially_Aware_Robot_Navigation](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9981616) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/IROS2022%20-%20Feedback-efficient%20Active%20Preference%20Learning%20for%20Socially%20Aware%20Robot%20Navigation.md) - Reviewed
 
-[Inverse Reward Design](https://proceedings.neurips.cc/paper/2017/file/32fdab6559cdfa4f167f8c31b9199643-Paper.pdf) - Under Review
+[Inverse Reward Design](https://proceedings.neurips.cc/paper/2017/file/32fdab6559cdfa4f167f8c31b9199643-Paper.pdf) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Reward%20Function/Inverse%20Reward%20Design.md) - Reviewed
 
-[Learning Reward Functions by Integrating Human Demonstrations and Preferences](https://arxiv.org/pdf/1906.08928.pdf) - Under Review
-
+[Learning Reward Functions by Integrating Human Demonstrations and Preferences](https://arxiv.org/pdf/1906.08928.pdf) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Reward%20Function/%5BDemPref%5D%20Learning%20Reward%20Functions%20by%20Integrating%20Human%20Demonstrations%20and%20Preferences.md) - Reviewed
 [Reward Machines: Exploiting Reward Function Structure in Reinforcement Learning](https://arxiv.org/pdf/2010.03950.pdf) - Under Review
 
 [Socially aware robot navigation in crowds via deep reinforcement learning with resilient reward functions](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2043184)
