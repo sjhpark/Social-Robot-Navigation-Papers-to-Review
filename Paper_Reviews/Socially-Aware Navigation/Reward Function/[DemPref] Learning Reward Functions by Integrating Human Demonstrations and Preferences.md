@@ -20,8 +20,11 @@ Key ideas
     - use the demonstrations to ground the (active) query generation process (to improve the quality of generated queries)
     - alleviate the efficiency issue faced by standard preference-based learning methods
   - Stages for learning the reward function in DemPref:
-    - 1. Use human demonstrations as a prior probabilistic distribution of initial reward function.
+    - 1. Use human demonstrations as a prior reward probabilistic distribution.
     - 2. Actively query the human for its preference between actively-generated queries to learn the true reward function.
+      - Ask human to pick between two trajectories generated based on the reward probabilistic distribution. 
+      - Then use the preference information to update the reward distribution. 
+      - Then repeat these 2 steps until convergence. 
 
 ## Introduction
 It is hard to handcarft a reward function that perfectly encodes the robot's desired behavior in every aspect
