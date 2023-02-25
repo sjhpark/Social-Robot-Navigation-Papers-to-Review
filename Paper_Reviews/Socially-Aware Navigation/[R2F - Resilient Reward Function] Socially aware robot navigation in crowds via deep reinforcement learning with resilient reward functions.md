@@ -17,6 +17,6 @@ Key Ideas:
     -  ![image](https://user-images.githubusercontent.com/83327791/221377463-72a6b0e9-545c-43d2-91fb-90d51710c59b.png)
       - The authors defined the uncomfortable distance as the minimum distance between the center human and the surrounding human agent within the 2m radius whom is the closest to that center human agent.
     -  While within the uncomfortable distance defined by the pedestrian density, robot gets more penalty if it is closer to the pedestrian.
-    - Algorithm used to calculate uncomfortable distance. The authors used ATC (Asia and Pacific Trade Center) dataset:
+    - Algorithm used to derive uncomfortable distance. The authors used ATC (Asia and Pacific Trade Center) dataset:
       - ![image](https://user-images.githubusercontent.com/83327791/221378799-07da7242-c4b1-440d-903d-2049ff0fedbc.png)
   - DRL with this resilient reward function outperformed previous DRL methods with simple reward functions.
