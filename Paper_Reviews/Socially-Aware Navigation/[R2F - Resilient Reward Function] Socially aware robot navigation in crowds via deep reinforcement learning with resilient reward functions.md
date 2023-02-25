@@ -19,6 +19,6 @@ Key Ideas:
     -  While within the uncomfortable distance defined by the pedestrian density, robot gets more penalty if it is closer to the pedestrian.
     - Algorithm used to derive uncomfortable distance. The authors used ATC (Asia and Pacific Trade Center) dataset:
       - ![image](https://user-images.githubusercontent.com/83327791/221378799-07da7242-c4b1-440d-903d-2049ff0fedbc.png)
-    - Calculation of uncomfortable distance by curve fitting the mean and variance of uncomfortable distances in idfferent pedestrian densities:
+    - Calculation of uncomfortable distance by curve fitting the mean and variance of uncomfortable distances in dfferent pedestrian densities:
       - ![image](https://user-images.githubusercontent.com/83327791/221379025-3718ef79-2aed-47ff-b3d4-5e0f985c9eb7.png)
   - DRL with this resilient reward function outperformed previous DRL methods with simple reward functions.
