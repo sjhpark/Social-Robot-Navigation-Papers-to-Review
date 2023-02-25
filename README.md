@@ -79,7 +79,7 @@
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Robot%20Navigation%20in%20Constrained%20Pedestrian%20Environments%20using%20RL.md) - Reviewed
 
 [[SOADRL] Robot Navigation in Crowded Environments Using Deep Reinforcement Learning(IROS2020)](https://ras.papercept.net/images/temp/IROS/files/0386.pdf)
-| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Robot%20Navigation%20in%20Crowded%20Environments%20Using%20Deep%20RL.md) - Reviewed
+| [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/%5BSOADRL%5D%20Robot%20Navigation%20in%20Crowded%20Environments%20Using%20Deep%20RL.md) - Reviewed
 
 [Arena-Rosnav: Towards Deployment of Deep-Reinforcement-Learning-Based Obstacle Avoidance into Conventional Autonomous Navigation Systems (IROS2021)](https://arxiv.org/pdf/2104.03616.pdf)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Arena-Rosnav:%20Towards%20Deployment%20of%20Deep-Reinforcement-Learning-Based%20Obstacle%20Avoidance%20into%20Conventional%20Autonomous%20Navigation.md) - Reviewed
