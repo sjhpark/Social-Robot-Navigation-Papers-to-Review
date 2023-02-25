@@ -1,5 +1,4 @@
-# Socially aware robot navigation in crowds via deep reinforcement learning with
-resilient reward functions
+# Socially aware robot navigation in crowds via deep reinforcement learning with resilient reward functions
 
 Xiaojun Lu, Hanwool Woo , Angela Faragasso , Atsushi Yamashita and Hajime Asama
 
