@@ -15,5 +15,6 @@ Key Ideas:
   - ![image](https://user-images.githubusercontent.com/83327791/221377416-6ad5ff0f-460d-49ca-a06b-0569223e0cbf.png)
   - Introduced _uncomfortable distance_ which is determined by the pedestrian density.
     -  ![image](https://user-images.githubusercontent.com/83327791/221377463-72a6b0e9-545c-43d2-91fb-90d51710c59b.png)
+      - The authors defined the uncomfortable distance as the minimum distance between the center human and the surrounding human agent within the 2m radius whom is the closest to that center human agent.
     -  While within the uncomfortable distance defined by the pedestrian density, robot gets more penalty if it is closer to the pedestrian.
   - DRL with this resilient reward function outperformed previous DRL methods with simple reward functions.
