@@ -16,7 +16,7 @@
 [Model-free Deep Reinforcement Learning for Urban Autonomous Driving](https://arxiv.org/pdf/1904.09503.pdf)
 
 
-## Survey
+## Survey / Review
 [Evaluation of Socially-Aware Robot Navigation (2022)](https://www.frontiersin.org/articles/10.3389/frobt.2021.721317/full)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Evaluation%20of%20Socially-Aware%20Robot%20Navigation.md) - Reviewed
 
@@ -27,6 +27,8 @@
 
 [Human-Aware Robot Navigation: A Survey (2013)](https://hal.archives-ouvertes.fr/hal-01684295/document)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Human-Aware%20Robot%20Navigation:%20A%20Survey.md) - Reviewed
+
+[Deep Reinforcement Learning Based Mobile Robot Navigation: A Review](https://dc.tsinghuajournals.com/cgi/viewcontent.cgi?article=1565&context=tsinghua-science-and-technology) - Under Review
 
 
 ## IROS 2022 Papers
@@ -83,6 +85,8 @@
 
 [Arena-Rosnav: Towards Deployment of Deep-Reinforcement-Learning-Based Obstacle Avoidance into Conventional Autonomous Navigation Systems (IROS2021)](https://arxiv.org/pdf/2104.03616.pdf)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Arena-Rosnav:%20Towards%20Deployment%20of%20Deep-Reinforcement-Learning-Based%20Obstacle%20Avoidance%20into%20Conventional%20Autonomous%20Navigation.md) - Reviewed
+
+[Socially aware robot navigation in crowds via deep reinforcement learning withresilient reward functions](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2043184) - Under Review
 
 [Following Social Groups: Socially Compliant Autonomous Navigation in Dense Crowds](https://arxiv.org/abs/1911.12063)
 
