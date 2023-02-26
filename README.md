@@ -7,7 +7,7 @@
 
 [Learning Reward Functions by Integrating Human Demonstrations and Preferences](https://arxiv.org/pdf/1906.08928.pdf) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Reward%20Function/%5BDemPref%5D%20Learning%20Reward%20Functions%20by%20Integrating%20Human%20Demonstrations%20and%20Preferences.md) - Reviewed
 
-[[R2F - Resilient Reward Function] Socially aware robot navigation in crowds via deep reinforcement learning withresilient reward functions](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2043184) | [Reviwed](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/%5BR2F%20-%20Resilient%20Reward%20Function%5D%20Socially%20aware%20robot%20navigation%20in%20crowds%20via%20deep%20reinforcement%20learning%20with%20resilient%20reward%20functions.md)
+[[R2F - Resilient Reward Function] Socially aware robot navigation in crowds via deep reinforcement learning withresilient reward functions](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2043184) | [Reviw](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/%5BR2F%20-%20Resilient%20Reward%20Function%5D%20Socially%20aware%20robot%20navigation%20in%20crowds%20via%20deep%20reinforcement%20learning%20with%20resilient%20reward%20functions.md) - Reviewed
 
 [Composite Reinforcement Learning for Social Robot Navigation](https://ieeexplore.ieee.org/document/8593410) - Under Review
 
