@@ -109,7 +109,18 @@ Policy-based DRL methods handle continuous and high-dimensional action spaces (e
 ![image](https://user-images.githubusercontent.com/83327791/221389203-10b02ced-ba81-4d07-b9bb-1dbda81cf9e6.png)
 ![image](https://user-images.githubusercontent.com/83327791/221389220-e88cb170-125a-4784-a9da-570f023bc1fa.png)
 
+## Challenge
+Sparse Reward
+- e.g. gives reward if reaches the goal, gives penalty if not
+- does not adequately cover the holistic environment --> can result in poor training convergence and long training times OR result in undesired behavior of the robot
 
-
-
+Solution
+- Reward shaping
+  - Designing a dense reward (manually)
+  - **However, manually, designed reward functions have 2 disadvantages:**
+    - Overfitting to certain scenes --> non-universality (not generalized)
+    - Inappropriate reward sometimes leads to wrong guidance for learning
+- Curriculum learning
+  - Desgining appropriate curricula for prgressive learners from simple to complex
+    - The complexity of the course is gradually increased.
 
