@@ -31,12 +31,12 @@
 [Core Challenges of Social Robot Navigation: A Survey (2021)](https://arxiv.org/abs/2103.05668)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Core%20Challenges%20of%20Social%20Robot%20Navigation_%20A%20Survey.pdf) - Reviewed
 
+[Deep Reinforcement Learning Based Mobile Robot Navigation: A Review (2021)](https://dc.tsinghuajournals.com/cgi/viewcontent.cgi?article=1565&context=tsinghua-science-and-technology) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/DRL%20Based%20Mobile%20Robot%20Navigation:%20A%20Review.md) - Reviwed
+
 [A Survey on Human-aware Robot Navigation (2021)](https://arxiv.org/pdf/2106.11650.pdf) - Under Review
 
 [Human-Aware Robot Navigation: A Survey (2013)](https://hal.archives-ouvertes.fr/hal-01684295/document)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Human-Aware%20Robot%20Navigation:%20A%20Survey.md) - Reviewed
-
-[Deep Reinforcement Learning Based Mobile Robot Navigation: A Review](https://dc.tsinghuajournals.com/cgi/viewcontent.cgi?article=1565&context=tsinghua-science-and-technology) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/DRL%20Based%20Mobile%20Robot%20Navigation:%20A%20Review.md) - Reviwed
 
 
 ## IROS 2022 Papers
