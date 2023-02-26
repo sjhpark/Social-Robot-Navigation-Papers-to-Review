@@ -77,7 +77,7 @@ Policy-based DRL methods handle continuous and high-dimensional action spaces (e
   - Unbiased estimate of the policy network gradient:
     - ![image](https://user-images.githubusercontent.com/83327791/221386473-cf9fd7ae-1b06-44fe-89ae-a1c455e90fb2.png)
  
- - A3C (Asynchronous Advantage Actor-Critic)
+- A3C (Asynchronous Advantage Actor-Critic)
   - AC (Actor-Critic) method combines the Value function with the Policy gradient method.
     - Actor: selects actions using the policy gradient method
     - Critic: evaluates those selected actions using the value function method.
@@ -89,9 +89,9 @@ Policy-based DRL methods handle continuous and high-dimensional action spaces (e
   - N-step return:
     - The value function of A3C's Critic is updated through multi-step cumulative return (other algorithms typically use a one-step return of the instant reward calculation function obtained in the sample).
     - N-step return improves the iterative update propragation and convergence speed.
-  - A3C can run on a multi-core CPI, so its computational cost is lower.
+    - A3C can run on a multi-core CPI, so its computational cost is lower.
 
--  PPO (Proximal Policy Optimization)
+- PPO (Proximal Policy Optimization)
   - PPO can perform multiple epochs of minibatch updates --> improves the sample utilization efficiency.
     - Traditional policy gradient methods adopt an on-policy method in which the sample minibatch can only be used for one update epoch, and the minibatch must be resampled to implement the next policy update. 
   - ![image](https://user-images.githubusercontent.com/83327791/221386969-d1646cde-f7e1-44dc-aa88-36993c4fe06c.png)
