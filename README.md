@@ -9,6 +9,8 @@
 
 [[R2F - Resilient Reward Function] Socially aware robot navigation in crowds via deep reinforcement learning withresilient reward functions](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2043184) | [Reviwed](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/%5BR2F%20-%20Resilient%20Reward%20Function%5D%20Socially%20aware%20robot%20navigation%20in%20crowds%20via%20deep%20reinforcement%20learning%20with%20resilient%20reward%20functions.md)
 
+[Composite Reinforcement Learning for Social Robot Navigation](https://ieeexplore.ieee.org/document/8593410) - Under Review
+
 [Reward Machines: Exploiting Reward Function Structure in Reinforcement Learning](https://arxiv.org/pdf/2010.03950.pdf) - Under Review
 
 [Socially aware robot navigation in crowds via deep reinforcement learning with resilient reward functions](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2043184)
