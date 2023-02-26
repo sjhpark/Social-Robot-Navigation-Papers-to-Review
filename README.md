@@ -31,7 +31,7 @@
 [Core Challenges of Social Robot Navigation: A Survey (2021)](https://arxiv.org/abs/2103.05668)
 | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/Core%20Challenges%20of%20Social%20Robot%20Navigation_%20A%20Survey.pdf) - Reviewed
 
-[Deep Reinforcement Learning Based Mobile Robot Navigation: A Review (2021)](https://dc.tsinghuajournals.com/cgi/viewcontent.cgi?article=1565&context=tsinghua-science-and-technology) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/DRL%20Based%20Mobile%20Robot%20Navigation:%20A%20Review.md) - Reviwed
+[Deep Reinforcement Learning Based Mobile Robot Navigation: A Review (2021)](https://dc.tsinghuajournals.com/cgi/viewcontent.cgi?article=1565&context=tsinghua-science-and-technology) | [Review](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/Survey/DRL%20Based%20Mobile%20Robot%20Navigation:%20A%20Review.md) - Reviewed
 
 [A Survey on Human-aware Robot Navigation (2021)](https://arxiv.org/pdf/2106.11650.pdf) - Under Review
 
@@ -61,9 +61,9 @@
 
 [CADRL](https://arxiv.org/abs/1609.07845) - Reviewed
 
-[SA CADRL](https://arxiv.org/abs/1803.10892) - Reviewed
+[SA-CADRL](https://arxiv.org/abs/1803.10892) - Reviewed
 
-[CADRL GA3C](https://arxiv.org/pdf/1805.01956.pdf)
+[GA3C-CADRL](https://arxiv.org/pdf/1805.01956.pdf)
 | [Review - Conference Paper](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/CADRL%20GA3C%20-%20Conference%20Version.md)
 | [Review - Journal](https://github.com/sjhpark/Social-Robot-Navigation-Papers-to-Review/blob/main/Paper_Reviews/Socially-Aware%20Navigation/%5BCADRL%20GA3C%5D%20Collision%20Avoidance%20in%20Pedestrian-Rich%20Environments%20with%20Deep%20Reinforcement%20Learning%20-%20Journal%20Version.md) - Reviewed
 
