@@ -11,6 +11,10 @@
 
 [Composite Reinforcement Learning for Social Robot Navigation](https://ieeexplore.ieee.org/document/8593410) - Under Review
 
+[Learning Navigation Behaviors End-to-End with AutoRL](https://arxiv.org/abs/1809.10124) - Under Review
+
+[Learning Reward Function with Matching Network for Mapless Navigation](https://www.mdpi.com/1424-8220/20/13/3664) - Under Review
+
 [Reward Machines: Exploiting Reward Function Structure in Reinforcement Learning](https://arxiv.org/pdf/2010.03950.pdf) - Under Review
 
 [Socially aware robot navigation in crowds via deep reinforcement learning with resilient reward functions](https://www.tandfonline.com/doi/full/10.1080/01691864.2022.2043184)
