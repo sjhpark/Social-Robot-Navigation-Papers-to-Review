@@ -102,6 +102,12 @@ Policy-based DRL methods handle continuous and high-dimensional action spaces (e
       - ![image](https://user-images.githubusercontent.com/83327791/221387046-293d3c06-4db5-4e54-959f-39d85f980de2.png)
   - By balancing between sample complexity, simplicity, and time effectiveness, PPO outforms A3C and other on-policy gradient methods.
 
+## DRL based Mobile Robot Navigation
+![image](https://user-images.githubusercontent.com/83327791/221389157-0f2e974b-850c-42e4-a184-682d0a469f59.png)
+
+### References of DRL based Mobile Robot Navigation
+![image](https://user-images.githubusercontent.com/83327791/221389203-10b02ced-ba81-4d07-b9bb-1dbda81cf9e6.png)
+![image](https://user-images.githubusercontent.com/83327791/221389220-e88cb170-125a-4784-a9da-570f023bc1fa.png)
 
 
 
