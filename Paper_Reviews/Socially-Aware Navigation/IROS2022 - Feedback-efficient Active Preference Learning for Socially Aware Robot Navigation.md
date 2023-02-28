@@ -20,6 +20,9 @@ Key Idea:
     - relies on human feedback, rather than human demonstrations.
   - Active preference learning will express preferences for a pair of robot navigation trajectories.
     - It has been shown that people feel much easier to make relative judgements than direct rating. (e.g. comparing two actions and tell which is more happy is easier than looking at one action as tells if it is happy or not). 
+  - Experts demonstrations will be stored into an initialized experience replay buffer as expert experiences.
+  - Curious exploration will be stored in the experience replay buffer as exploration experiences.
+  - Experiences stored in the experience replay buffer will be dvided into multiple segments. In each feedback step, human will be queried to show preference over two segments of the experiences.
 
 ## Introduction
 Two categories of existing research in socially-aware navigation:
