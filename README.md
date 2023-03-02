@@ -172,10 +172,14 @@
 
 ---
 
-# Reinforcement Learning
+# Resources for Learning More About Reinforcement Learning:
+## OpenAI Spinning Up
+[OpenAI Spinning Up](https://spinningup.openai.com/en/latest/)
+
+## Overview of RL
+[A (Long) Peek into Reinforcement Learning](https://lilianweng.github.io/posts/2018-02-19-rl-overview/#markov-decision-processes)
 
 ## Lists of RL Papers
-
 [Key Papers in DRL](https://spinningup.openai.com/en/latest/spinningup/keypapers.html#id106)
 
 ## Key Concepts & Terminology of RL
@@ -211,6 +215,3 @@
 [Github1](https://github.com/PaoPaoRobot)
 
 [Github2](https://github.com/CUN-bjy/learning-based-navigation-papers)
-
-## OpenAI
-[OpenAI Spinning Up](https://spinningup.openai.com/en/latest/)
